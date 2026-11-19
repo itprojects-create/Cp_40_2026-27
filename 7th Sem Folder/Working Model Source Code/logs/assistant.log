@@ -1,0 +1,2016 @@
+2026-08-20 12:16:43,554 | INFO     | audio.microphone | Recording for 3 seconds...
+2026-08-20 12:16:46,767 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:21:49,115 | INFO     | audio.microphone | Recording for 3 seconds...
+2026-08-20 13:21:52,371 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:26:49,684 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 13:27:45,608 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 13:27:46,765 | INFO     | audio.speech_to_text | Model loaded in 1.16s
+2026-08-20 13:27:49,301 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:27:53,508 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:27:54,333 | INFO     | audio.speech_to_text | Transcription took 0.82s -> 'Open Chrome.'
+2026-08-20 13:30:40,262 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 13:30:40,977 | INFO     | voice.text_to_speech | Speaking: 'Hello, I am your Windows voice assistant.'
+2026-08-20 13:30:44,792 | INFO     | voice.text_to_speech | Speaking: 'Opening Chrome.'
+2026-08-20 13:30:51,443 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 13:30:52,637 | INFO     | audio.speech_to_text | Model loaded in 1.19s
+2026-08-20 13:30:55,248 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:30:59,450 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:31:00,193 | INFO     | audio.speech_to_text | Transcription took 0.74s -> 'Open YouTube.'
+2026-08-20 13:31:07,599 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 13:31:08,029 | INFO     | voice.text_to_speech | Speaking: 'Hello, I am your Windows voice assistant.'
+2026-08-20 13:31:11,306 | INFO     | voice.text_to_speech | Speaking: 'Opening Chrome.'
+2026-08-20 13:45:13,361 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 13:45:14,791 | INFO     | audio.speech_to_text | Model loaded in 1.43s
+2026-08-20 13:45:14,791 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 13:45:14,791 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 13:45:18,752 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:45:22,963 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:45:23,705 | INFO     | audio.speech_to_text | Transcription took 0.74s -> 'Open chrome.'
+2026-08-20 13:45:23,705 | INFO     | brain.command_processor | Processing command: 'open chrome'
+2026-08-20 13:45:23,713 | INFO     | automation.app_controller | Launched app: chrome
+2026-08-20 13:45:23,713 | INFO     | voice.text_to_speech | Speaking: 'Opening Chrome.'
+2026-08-20 13:45:28,044 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:45:32,213 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:45:32,712 | INFO     | audio.speech_to_text | Transcription took 0.50s -> 'What time is it?'
+2026-08-20 13:45:32,714 | INFO     | brain.command_processor | Processing command: 'what time is it?'
+2026-08-20 13:45:32,714 | INFO     | automation.system_controller | Current time requested: 1:45 PM
+2026-08-20 13:45:32,714 | INFO     | voice.text_to_speech | Speaking: 'It is currently 1:45 PM'
+2026-08-20 13:45:52,548 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:45:57,349 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:45:59,247 | INFO     | audio.speech_to_text | Transcription took 1.90s -> 'Close strong.'
+2026-08-20 13:45:59,247 | INFO     | brain.command_processor | Processing command: 'close strong'
+2026-08-20 13:45:59,247 | WARNING  | brain.command_processor | No matching command for: 'close strong'
+2026-08-20 13:45:59,249 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 13:46:02,966 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:46:07,132 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:46:07,594 | INFO     | audio.speech_to_text | Transcription took 0.46s -> 'Close chrome.'
+2026-08-20 13:46:07,595 | INFO     | brain.command_processor | Processing command: 'close chrome'
+2026-08-20 13:46:08,159 | INFO     | automation.app_controller | Closed app: chrome
+2026-08-20 13:46:08,159 | INFO     | voice.text_to_speech | Speaking: 'Closing Chrome.'
+2026-08-20 13:46:10,880 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:46:15,118 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:46:15,793 | INFO     | audio.speech_to_text | Transcription took 0.67s -> 'Take screenshot'
+2026-08-20 13:46:15,793 | INFO     | brain.command_processor | Processing command: 'take screenshot'
+2026-08-20 13:46:15,949 | INFO     | automation.screenshot_controller | Screenshot saved: D:\college\capstone\windows_voice_assistant\screenshots\screenshot_20260820_134615.png
+2026-08-20 13:46:15,949 | INFO     | voice.text_to_speech | Speaking: 'Screenshot taken.'
+2026-08-20 13:46:40,883 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:46:45,748 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:46:46,900 | INFO     | audio.speech_to_text | Transcription took 1.15s -> 'Sit.'
+2026-08-20 13:46:46,906 | INFO     | brain.command_processor | Processing command: 'sit'
+2026-08-20 13:46:46,906 | WARNING  | brain.command_processor | No matching command for: 'sit'
+2026-08-20 13:46:46,906 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 13:47:09,976 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:47:14,882 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:47:15,616 | INFO     | audio.speech_to_text | Transcription took 0.73s -> 'Once for me'
+2026-08-20 13:47:15,616 | INFO     | brain.command_processor | Processing command: 'once for me'
+2026-08-20 13:47:15,616 | WARNING  | brain.command_processor | No matching command for: 'once for me'
+2026-08-20 13:47:15,620 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 13:49:54,847 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:49:59,713 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 13:50:47,166 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 13:50:48,672 | INFO     | audio.speech_to_text | Model loaded in 1.51s
+2026-08-20 13:50:48,672 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 13:50:48,672 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 13:50:53,282 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:50:57,492 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:50:58,329 | INFO     | audio.speech_to_text | Transcription took 0.84s -> 'Open chrome.'
+2026-08-20 13:50:58,329 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'chrome', 'confidence': 0.95, 'raw_text': 'Open chrome.'}
+2026-08-20 13:50:58,344 | INFO     | automation.app_controller | Launched app: chrome
+2026-08-20 13:50:58,344 | INFO     | brain.context_manager | Context: application -> chrome
+2026-08-20 13:50:58,344 | INFO     | voice.text_to_speech | Speaking: 'Opening chrome.'
+2026-08-20 13:51:04,542 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:51:08,702 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:51:09,213 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Open VS Code.'
+2026-08-20 13:51:09,213 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'vscode', 'confidence': 0.95, 'raw_text': 'Open VS Code.'}
+2026-08-20 13:51:09,232 | INFO     | automation.app_controller | Launched app: vscode
+2026-08-20 13:51:09,232 | INFO     | brain.context_manager | Context: application -> vscode
+2026-08-20 13:51:09,232 | INFO     | voice.text_to_speech | Speaking: 'Opening vscode.'
+2026-08-20 13:51:13,337 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:51:17,540 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:51:18,013 | INFO     | audio.speech_to_text | Transcription took 0.47s -> 'Open Sublime.'
+2026-08-20 13:51:18,013 | WARNING  | brain.intent_parser | No intent matched for: 'open sublime'
+2026-08-20 13:51:18,013 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Open Sublime.')
+2026-08-20 13:51:18,013 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 13:51:40,169 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:51:44,501 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:51:45,031 | INFO     | audio.speech_to_text | Transcription took 0.53s -> 'Open, sign text.'
+2026-08-20 13:51:45,031 | WARNING  | brain.intent_parser | No intent matched for: 'open, sign text'
+2026-08-20 13:51:45,031 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Open, sign text.')
+2026-08-20 13:51:45,031 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 13:52:14,896 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:52:19,655 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:52:20,146 | INFO     | audio.speech_to_text | Transcription took 0.49s -> 'Open notepad.'
+2026-08-20 13:52:20,146 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'notepad', 'confidence': 0.95, 'raw_text': 'Open notepad.'}
+2026-08-20 13:52:20,178 | INFO     | automation.app_controller | Launched app: notepad
+2026-08-20 13:52:20,178 | INFO     | brain.context_manager | Context: application -> notepad
+2026-08-20 13:52:20,178 | INFO     | voice.text_to_speech | Speaking: 'Opening notepad.'
+2026-08-20 13:52:26,188 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:52:30,351 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:52:30,859 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Open Explorer.'
+2026-08-20 13:52:30,859 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'explorer', 'confidence': 0.95, 'raw_text': 'Open Explorer.'}
+2026-08-20 13:52:30,875 | INFO     | automation.app_controller | Launched app: explorer
+2026-08-20 13:52:30,875 | INFO     | brain.context_manager | Context: application -> explorer
+2026-08-20 13:52:30,875 | INFO     | voice.text_to_speech | Speaking: 'Opening explorer.'
+2026-08-20 13:52:35,270 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:52:39,436 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:52:39,961 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Open Visual Studio Code'
+2026-08-20 13:52:39,961 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'vscode', 'confidence': 0.95, 'raw_text': 'Open Visual Studio Code'}
+2026-08-20 13:52:39,982 | INFO     | automation.app_controller | Launched app: vscode
+2026-08-20 13:52:39,982 | INFO     | brain.context_manager | Context: application -> vscode
+2026-08-20 13:52:39,982 | INFO     | voice.text_to_speech | Speaking: 'Opening vscode.'
+2026-08-20 13:52:58,166 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 13:53:02,706 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 13:53:03,972 | INFO     | audio.speech_to_text | Model loaded in 1.27s
+2026-08-20 13:53:03,974 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 13:53:03,974 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 13:53:07,654 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:53:11,805 | INFO     | audio.microphone | Recording finished.
+2026-08-20 13:53:12,430 | INFO     | audio.speech_to_text | Transcription took 0.63s -> 'Goodbye'
+2026-08-20 13:53:12,432 | WARNING  | brain.intent_parser | No intent matched for: 'goodbye'
+2026-08-20 13:53:12,432 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Goodbye')
+2026-08-20 13:53:12,432 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 13:53:17,744 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 13:53:21,909 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 14:04:23,743 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 14:04:25,611 | INFO     | audio.speech_to_text | Model loaded in 1.87s
+2026-08-20 14:04:25,611 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 14:04:25,611 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 14:04:37,517 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:04:41,772 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:04:43,033 | INFO     | audio.speech_to_text | Transcription took 1.26s -> 'Turn the volume down'
+2026-08-20 14:04:43,033 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_DOWN', 'entity': None, 'confidence': 0.95, 'raw_text': 'Turn the volume down'}
+2026-08-20 14:04:43,042 | INFO     | automation.volume_controller | Volume set to 90%
+2026-08-20 14:04:43,044 | INFO     | voice.text_to_speech | Speaking: 'Volume decreased to 90 percent.'
+2026-08-20 14:04:58,373 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:05:02,597 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:05:03,287 | INFO     | audio.speech_to_text | Transcription took 0.69s -> 'Open Settings.'
+2026-08-20 14:05:03,296 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_SETTINGS', 'entity': None, 'confidence': 0.95, 'raw_text': 'Open Settings.'}
+2026-08-20 14:05:03,296 | INFO     | automation.system_controller | Opening Windows Settings
+2026-08-20 14:05:03,306 | INFO     | voice.text_to_speech | Speaking: 'Opening Settings.'
+2026-08-20 14:05:08,394 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:05:12,590 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:05:13,281 | INFO     | audio.speech_to_text | Transcription took 0.69s -> 'Open Task Manager'
+2026-08-20 14:05:13,281 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'taskmanager', 'confidence': 0.95, 'raw_text': 'Open Task Manager'}
+2026-08-20 14:05:13,308 | INFO     | automation.app_controller | Launched app: taskmanager
+2026-08-20 14:05:13,308 | INFO     | brain.context_manager | Context: application -> taskmanager
+2026-08-20 14:05:13,308 | INFO     | voice.text_to_speech | Speaking: 'Opening taskmanager.'
+2026-08-20 14:05:34,108 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:05:38,970 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:05:39,034 | INFO     | audio.speech_to_text | Transcription took 0.06s -> ''
+2026-08-20 14:05:39,034 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-20 14:05:39,034 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 14:05:42,865 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:05:47,050 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:05:47,738 | INFO     | audio.speech_to_text | Transcription took 0.69s -> 'Mute!'
+2026-08-20 14:05:47,738 | WARNING  | brain.intent_parser | No intent matched for: 'mute!'
+2026-08-20 14:05:47,738 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Mute!')
+2026-08-20 14:05:47,738 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 14:05:54,105 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:05:58,311 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:05:58,978 | INFO     | audio.speech_to_text | Transcription took 0.67s -> 'increase the volume'
+2026-08-20 14:05:58,978 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_UP', 'entity': None, 'confidence': 0.95, 'raw_text': 'increase the volume'}
+2026-08-20 14:05:58,998 | INFO     | automation.volume_controller | Volume set to 100%
+2026-08-20 14:05:58,998 | INFO     | voice.text_to_speech | Speaking: 'Volume increased to 100 percent.'
+2026-08-20 14:06:02,957 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:06:07,167 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:06:07,816 | INFO     | audio.speech_to_text | Transcription took 0.65s -> 'Increase the volume'
+2026-08-20 14:06:07,817 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_UP', 'entity': None, 'confidence': 0.95, 'raw_text': 'Increase the volume'}
+2026-08-20 14:06:07,826 | INFO     | automation.volume_controller | Volume set to 100%
+2026-08-20 14:06:07,826 | INFO     | voice.text_to_speech | Speaking: 'Volume increased to 100 percent.'
+2026-08-20 14:06:12,509 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:06:16,720 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:06:17,383 | INFO     | audio.speech_to_text | Transcription took 0.66s -> 'decrease the volume.'
+2026-08-20 14:06:17,383 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_DOWN', 'entity': None, 'confidence': 0.95, 'raw_text': 'decrease the volume.'}
+2026-08-20 14:06:17,402 | INFO     | automation.volume_controller | Volume set to 90%
+2026-08-20 14:06:17,408 | INFO     | voice.text_to_speech | Speaking: 'Volume decreased to 90 percent.'
+2026-08-20 14:07:24,829 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:07:29,605 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:07:30,095 | INFO     | audio.speech_to_text | Transcription took 0.49s -> 'Mute.'
+2026-08-20 14:07:30,095 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'MUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'Mute.'}
+2026-08-20 14:07:30,098 | INFO     | automation.volume_controller | Muted
+2026-08-20 14:07:30,101 | INFO     | voice.text_to_speech | Speaking: 'Muted.'
+2026-08-20 14:07:34,533 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 14:07:38,704 | INFO     | audio.microphone | Recording finished.
+2026-08-20 14:07:39,185 | INFO     | audio.speech_to_text | Transcription took 0.48s -> 'Unmute'
+2026-08-20 14:07:39,185 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'UNMUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'Unmute'}
+2026-08-20 14:07:39,185 | INFO     | automation.volume_controller | Unmuted
+2026-08-20 14:07:39,185 | INFO     | voice.text_to_speech | Speaking: 'Unmuted.'
+2026-08-20 14:27:03,631 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 15:05:35,161 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 15:05:37,704 | INFO     | audio.speech_to_text | Model loaded in 2.54s
+2026-08-20 15:05:37,704 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 15:05:37,704 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 15:05:44,818 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:05:49,043 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:05:49,928 | INFO     | audio.speech_to_text | Transcription took 0.88s -> 'Open YouTube.'
+2026-08-20 15:05:49,930 | WARNING  | brain.intent_parser | No intent matched for: 'open youtube'
+2026-08-20 15:05:49,930 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Open YouTube.')
+2026-08-20 15:05:49,930 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 15:05:52,981 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:05:57,162 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:05:57,210 | INFO     | audio.speech_to_text | Transcription took 0.05s -> ''
+2026-08-20 15:05:57,210 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-20 15:05:57,210 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 15:06:00,241 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:06:04,406 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 15:08:47,117 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 15:08:48,422 | INFO     | audio.speech_to_text | Model loaded in 1.31s
+2026-08-20 15:08:48,422 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 15:08:48,422 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 15:08:55,538 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:08:59,750 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:09:00,566 | INFO     | audio.speech_to_text | Transcription took 0.82s -> 'Open YouTube.'
+2026-08-20 15:09:00,566 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 15:09:00,566 | WARNING  | brain.command_router | Unhandled intent: 'OPEN_WEBSITE' (raw_text='Open YouTube.')
+2026-08-20 15:09:00,566 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 15:09:03,634 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:09:07,803 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:09:08,312 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Open YouTube.'
+2026-08-20 15:09:08,314 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 15:09:08,314 | WARNING  | brain.command_router | Unhandled intent: 'OPEN_WEBSITE' (raw_text='Open YouTube.')
+2026-08-20 15:09:08,314 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 15:10:29,623 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 15:10:34,265 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 15:10:35,971 | INFO     | audio.speech_to_text | Model loaded in 1.71s
+2026-08-20 15:10:35,971 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 15:10:35,971 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 15:10:44,403 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:10:48,624 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:10:49,453 | INFO     | audio.speech_to_text | Transcription took 0.83s -> 'Open YouTube.'
+2026-08-20 15:10:49,453 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 15:10:50,264 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-08-20 15:10:52,985 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-08-20 15:10:54,971 | INFO     | automation.browser.browser_controller | Navigated to youtube (https://www.youtube.com)
+2026-08-20 15:10:54,971 | INFO     | brain.context_manager | Context: website -> youtube
+2026-08-20 15:10:54,972 | INFO     | voice.text_to_speech | Speaking: 'Opening youtube.'
+2026-08-20 15:10:56,713 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:11:00,953 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:11:01,006 | INFO     | audio.speech_to_text | Transcription took 0.05s -> ''
+2026-08-20 15:11:01,007 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-20 15:11:01,008 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 15:11:03,999 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:11:08,218 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:11:08,409 | INFO     | audio.speech_to_text | Transcription took 0.19s -> ''
+2026-08-20 15:11:08,410 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-20 15:11:08,410 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 15:56:14,408 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 15:56:15,863 | INFO     | audio.speech_to_text | Model loaded in 1.45s
+2026-08-20 15:56:15,863 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 15:56:15,863 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 15:56:18,675 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:56:23,000 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:56:23,850 | INFO     | audio.speech_to_text | Transcription took 0.85s -> 'Open YouTube!'
+2026-08-20 15:56:23,852 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube!'}
+2026-08-20 15:56:24,714 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-08-20 15:56:27,438 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-08-20 15:56:48,403 | ERROR    | automation.browser.browser_controller | Failed to open 'youtube': Page.goto: Target page, context or browser has been closed
+Call log:
+navigating to "https://www.youtube.com/", waiting until "load"
+
+2026-08-20 15:56:48,404 | INFO     | voice.text_to_speech | Speaking: 'I couldn't open youtube.'
+2026-08-20 15:56:52,090 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:56:56,294 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:56:56,850 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'Open YouTube.'
+2026-08-20 15:56:56,852 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 15:56:56,858 | ERROR    | automation.browser.browser_controller | Failed to open 'youtube': Page.goto: Target page, context or browser has been closed
+2026-08-20 15:56:56,858 | INFO     | voice.text_to_speech | Speaking: 'I couldn't open youtube.'
+2026-08-20 15:57:01,870 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:57:06,046 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:57:06,512 | INFO     | audio.speech_to_text | Transcription took 0.47s -> 'Open YouTube.'
+2026-08-20 15:57:06,512 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 15:57:06,520 | ERROR    | automation.browser.browser_controller | Failed to open 'youtube': Page.goto: Target page, context or browser has been closed
+2026-08-20 15:57:06,520 | INFO     | voice.text_to_speech | Speaking: 'I couldn't open youtube.'
+2026-08-20 15:57:08,579 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 15:57:16,198 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 15:57:17,523 | INFO     | audio.speech_to_text | Model loaded in 1.33s
+2026-08-20 15:57:17,523 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 15:57:17,523 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 15:57:19,659 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:57:23,821 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:57:24,475 | INFO     | audio.speech_to_text | Transcription took 0.65s -> 'Open YouTube.'
+2026-08-20 15:57:24,475 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 15:57:25,084 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-08-20 15:57:27,793 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-08-20 15:57:28,837 | INFO     | automation.browser.browser_controller | Navigated to youtube (https://www.youtube.com)
+2026-08-20 15:57:28,837 | INFO     | brain.context_manager | Context: website -> youtube
+2026-08-20 15:57:28,838 | INFO     | voice.text_to_speech | Speaking: 'Opening youtube.'
+2026-08-20 15:57:30,571 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:57:34,790 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:57:35,355 | INFO     | audio.speech_to_text | Transcription took 0.57s -> 'Oh, yeah'
+2026-08-20 15:57:35,355 | WARNING  | brain.intent_parser | No intent matched for: 'oh, yeah'
+2026-08-20 15:57:35,355 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Oh, yeah')
+2026-08-20 15:57:35,355 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 15:57:54,892 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:57:59,651 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:58:00,161 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Open YouTube.'
+2026-08-20 15:58:00,161 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 15:58:00,213 | ERROR    | automation.browser.browser_controller | Failed to open 'youtube': Page.goto: Target page, context or browser has been closed
+Call log:
+navigating to "https://www.youtube.com/", waiting until "load"
+
+2026-08-20 15:58:00,213 | INFO     | voice.text_to_speech | Speaking: 'I couldn't open youtube.'
+2026-08-20 15:58:04,202 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 15:58:09,442 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 15:58:10,766 | INFO     | audio.speech_to_text | Model loaded in 1.32s
+2026-08-20 15:58:10,768 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 15:58:10,768 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 15:58:14,148 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:58:18,311 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:58:18,971 | INFO     | audio.speech_to_text | Transcription took 0.66s -> 'Open YouTube.'
+2026-08-20 15:58:18,971 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 15:58:19,572 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-08-20 15:58:22,295 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-08-20 15:58:22,910 | INFO     | automation.browser.browser_controller | Navigated to youtube (https://www.youtube.com)
+2026-08-20 15:58:22,910 | INFO     | brain.context_manager | Context: website -> youtube
+2026-08-20 15:58:22,911 | INFO     | voice.text_to_speech | Speaking: 'Opening youtube.'
+2026-08-20 15:58:31,829 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:58:36,034 | INFO     | audio.microphone | Recording finished.
+2026-08-20 15:58:36,662 | INFO     | audio.speech_to_text | Transcription took 0.62s -> 'Search for Python tutorial.'
+2026-08-20 15:58:36,662 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEARCH', 'entity': 'python tutorial', 'confidence': 0.95, 'raw_text': 'Search for Python tutorial.'}
+2026-08-20 15:58:38,298 | INFO     | automation.browser.youtube_controller | YouTube search: 'python tutorial'
+2026-08-20 15:58:38,299 | INFO     | voice.text_to_speech | Speaking: 'Searching YouTube for python tutorial.'
+2026-08-20 15:58:56,136 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 15:59:01,371 | INFO     | audio.microphone | Recording finished.
+2026-08-20 16:19:07,534 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 16:19:15,062 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 16:19:16,040 | INFO     | audio.speech_to_text | Model loaded in 0.98s
+2026-08-20 16:19:16,040 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 16:19:16,040 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 16:19:19,548 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 16:19:23,769 | INFO     | audio.microphone | Recording finished.
+2026-08-20 16:19:40,367 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 16:19:41,338 | INFO     | audio.speech_to_text | Model loaded in 0.97s
+2026-08-20 16:19:41,338 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 16:19:41,338 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 16:19:44,347 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 16:19:48,504 | INFO     | audio.microphone | Recording finished.
+2026-08-20 16:19:49,116 | INFO     | audio.speech_to_text | Transcription took 0.61s -> 'Open YouTube.'
+2026-08-20 16:19:49,116 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 16:19:51,386 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-08-20 16:19:54,095 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-08-20 16:19:54,192 | ERROR    | automation.browser.browser_controller | Failed to open 'youtube': Page.goto: net::ERR_ABORTED at https://www.youtube.com/
+Call log:
+navigating to "https://www.youtube.com/", waiting until "load"
+
+2026-08-20 16:19:54,200 | INFO     | voice.text_to_speech | Speaking: 'I couldn't open youtube.'
+2026-08-20 16:20:08,179 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 16:20:12,931 | INFO     | audio.microphone | Recording finished.
+2026-08-20 16:20:13,446 | INFO     | audio.speech_to_text | Transcription took 0.52s -> 'Open YouTube.'
+2026-08-20 16:20:13,446 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 16:20:13,465 | ERROR    | automation.browser.browser_controller | Failed to open 'youtube': Page.goto: Target page, context or browser has been closed
+Call log:
+navigating to "https://www.youtube.com/", waiting until "load"
+
+2026-08-20 16:20:13,465 | INFO     | voice.text_to_speech | Speaking: 'I couldn't open youtube.'
+2026-08-20 19:42:56,024 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 19:43:00,567 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 19:48:30,327 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 20:03:30,749 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 20:03:35,325 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 20:17:38,997 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 20:17:40,933 | INFO     | audio.speech_to_text | Model loaded in 1.94s
+2026-08-20 20:17:40,933 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 20:17:40,933 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 20:17:45,039 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:17:49,290 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:17:50,506 | INFO     | audio.speech_to_text | Transcription took 1.22s -> 'Open YouTube.'
+2026-08-20 20:17:50,509 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-20 20:17:51,304 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-08-20 20:17:54,339 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-08-20 20:17:58,669 | INFO     | automation.browser.browser_controller | Navigated to youtube (https://www.youtube.com)
+2026-08-20 20:17:58,669 | INFO     | brain.context_manager | Context: website -> youtube
+2026-08-20 20:17:58,669 | INFO     | voice.text_to_speech | Speaking: 'Opening youtube.'
+2026-08-20 20:18:04,671 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:18:08,901 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:18:09,553 | INFO     | audio.speech_to_text | Transcription took 0.65s -> 'Search for Python tutorial.'
+2026-08-20 20:18:09,553 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEARCH', 'entity': 'python tutorial', 'confidence': 0.95, 'raw_text': 'Search for Python tutorial.'}
+2026-08-20 20:18:11,973 | INFO     | automation.browser.youtube_controller | YouTube search: 'python tutorial'
+2026-08-20 20:18:11,973 | INFO     | voice.text_to_speech | Speaking: 'Searching YouTube for python tutorial.'
+2026-08-20 20:18:35,321 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:18:39,500 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:18:40,312 | INFO     | audio.speech_to_text | Transcription took 0.81s -> 'Play the first video.'
+2026-08-20 20:18:40,312 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'PLAY_FIRST_RESULT', 'entity': None, 'confidence': 0.95, 'raw_text': 'Play the first video.'}
+2026-08-20 20:18:40,783 | INFO     | automation.browser.youtube_controller | Playing first YouTube search result.
+2026-08-20 20:18:40,783 | INFO     | brain.context_manager | Context: media state -> playing
+2026-08-20 20:18:40,783 | INFO     | voice.text_to_speech | Speaking: 'Playing the first result.'
+2026-08-20 20:19:04,074 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:19:08,316 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:19:08,976 | INFO     | audio.speech_to_text | Transcription took 0.66s -> 'playing'
+2026-08-20 20:19:08,976 | WARNING  | brain.intent_parser | No intent matched for: 'playing'
+2026-08-20 20:19:08,976 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='playing')
+2026-08-20 20:19:08,976 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 20:19:13,251 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:19:17,468 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:19:18,123 | INFO     | audio.speech_to_text | Transcription took 0.65s -> 'Hey'
+2026-08-20 20:19:18,123 | WARNING  | brain.intent_parser | No intent matched for: 'hey'
+2026-08-20 20:19:18,123 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Hey')
+2026-08-20 20:19:18,123 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 20:19:22,747 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:19:26,970 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:19:27,635 | INFO     | audio.speech_to_text | Transcription took 0.67s -> 'play'
+2026-08-20 20:19:27,635 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'PLAY', 'entity': None, 'confidence': 0.95, 'raw_text': 'play'}
+2026-08-20 20:19:27,716 | INFO     | brain.context_manager | Context: media state -> playing
+2026-08-20 20:19:27,716 | INFO     | voice.text_to_speech | Speaking: 'Playing.'
+2026-08-20 20:19:38,119 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:19:42,297 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:19:42,959 | INFO     | audio.speech_to_text | Transcription took 0.66s -> 'Skip forward.'
+2026-08-20 20:19:42,963 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEEK_FORWARD', 'entity': None, 'confidence': 0.95, 'raw_text': 'Skip forward.'}
+2026-08-20 20:19:43,009 | INFO     | voice.text_to_speech | Speaking: 'Skipping forward.'
+2026-08-20 20:20:18,285 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:20:22,506 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:20:23,202 | INFO     | audio.speech_to_text | Transcription took 0.70s -> 'skip forward'
+2026-08-20 20:20:23,202 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEEK_FORWARD', 'entity': None, 'confidence': 0.95, 'raw_text': 'skip forward'}
+2026-08-20 20:20:23,245 | INFO     | voice.text_to_speech | Speaking: 'Skipping forward.'
+2026-08-20 20:20:25,890 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:20:30,066 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:20:30,763 | INFO     | audio.speech_to_text | Transcription took 0.70s -> 'Go back'
+2026-08-20 20:20:30,763 | WARNING  | brain.intent_parser | No intent matched for: 'go back'
+2026-08-20 20:20:30,763 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Go back')
+2026-08-20 20:20:30,763 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 20:21:49,442 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:21:54,281 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:21:55,233 | INFO     | audio.speech_to_text | Transcription took 0.95s -> 'Full screen'
+2026-08-20 20:21:55,233 | WARNING  | brain.intent_parser | No intent matched for: 'full screen'
+2026-08-20 20:21:55,233 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Full screen')
+2026-08-20 20:21:55,233 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 20:22:01,609 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:22:05,873 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:22:06,545 | INFO     | audio.speech_to_text | Transcription took 0.67s -> 'Fullscreen'
+2026-08-20 20:22:06,545 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'FULLSCREEN', 'entity': None, 'confidence': 0.95, 'raw_text': 'Fullscreen'}
+2026-08-20 20:22:06,613 | INFO     | voice.text_to_speech | Speaking: 'Entering fullscreen.'
+2026-08-20 20:22:11,957 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:22:16,132 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:22:16,766 | INFO     | audio.speech_to_text | Transcription took 0.63s -> 'Exit full screen.'
+2026-08-20 20:22:16,766 | WARNING  | brain.intent_parser | No intent matched for: 'exit full screen'
+2026-08-20 20:22:16,766 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Exit full screen.')
+2026-08-20 20:22:16,766 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 20:22:20,239 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 20:22:24,450 | INFO     | audio.microphone | Recording finished.
+2026-08-20 20:22:25,121 | INFO     | audio.speech_to_text | Transcription took 0.67s -> 'Exit full screen.'
+2026-08-20 20:22:25,121 | WARNING  | brain.intent_parser | No intent matched for: 'exit full screen'
+2026-08-20 20:22:25,121 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Exit full screen.')
+2026-08-20 20:22:25,121 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 20:44:08,306 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 21:35:35,373 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 21:35:37,026 | INFO     | audio.speech_to_text | Model loaded in 1.65s
+2026-08-20 22:21:35,584 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 22:21:37,182 | INFO     | audio.speech_to_text | Model loaded in 1.60s
+2026-08-20 22:22:34,504 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 22:22:35,824 | INFO     | audio.speech_to_text | Model loaded in 1.32s
+2026-08-20 22:23:28,631 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-20 22:23:31,887 | INFO     | audio.speech_to_text | Model loaded in 3.26s
+2026-08-20 22:23:32,785 | INFO     | audio.wake_word | Wake word listener initialized (model: hey_jarvis).
+2026-08-20 22:23:32,785 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-20 22:23:32,785 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-20 22:23:35,033 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-20 22:23:36,062 | INFO     | audio.wake_word | Wake word detected! (score: 0.61)
+2026-08-20 22:23:36,062 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-20 22:23:37,342 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 22:23:41,414 | INFO     | audio.microphone | Recording finished.
+2026-08-20 22:23:41,588 | INFO     | audio.speech_to_text | Transcription took 0.17s -> ''
+2026-08-20 22:23:41,589 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-20 22:23:41,589 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 22:23:44,668 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-20 22:23:44,675 | INFO     | audio.wake_word | Wake word detected! (score: 0.86)
+2026-08-20 22:23:44,675 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-20 22:23:45,959 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 22:23:50,031 | INFO     | audio.microphone | Recording finished.
+2026-08-20 22:23:50,580 | INFO     | audio.speech_to_text | Transcription took 0.55s -> 'Goodbye'
+2026-08-20 22:23:50,580 | WARNING  | brain.intent_parser | No intent matched for: 'goodbye'
+2026-08-20 22:23:50,580 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Goodbye')
+2026-08-20 22:23:50,586 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 22:23:53,612 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-20 22:23:53,612 | INFO     | audio.wake_word | Wake word detected! (score: 0.92)
+2026-08-20 22:23:53,612 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-20 22:23:54,903 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 22:23:58,968 | INFO     | audio.microphone | Recording finished.
+2026-08-20 22:23:59,016 | INFO     | audio.speech_to_text | Transcription took 0.05s -> ''
+2026-08-20 22:23:59,016 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-20 22:23:59,016 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 22:24:02,052 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-20 22:24:02,052 | INFO     | audio.wake_word | Wake word detected! (score: 0.94)
+2026-08-20 22:24:02,052 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-20 22:24:03,337 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 22:24:07,406 | INFO     | audio.microphone | Recording finished.
+2026-08-20 22:24:07,442 | INFO     | audio.speech_to_text | Transcription took 0.04s -> ''
+2026-08-20 22:24:07,442 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-20 22:24:07,442 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 22:24:10,485 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-20 22:24:10,486 | INFO     | audio.wake_word | Wake word detected! (score: 0.80)
+2026-08-20 22:24:10,486 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-20 22:24:11,768 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-20 22:24:15,833 | INFO     | audio.microphone | Recording finished.
+2026-08-20 22:24:15,880 | INFO     | audio.speech_to_text | Transcription took 0.05s -> ''
+2026-08-20 22:24:15,880 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-20 22:24:15,880 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-20 22:24:18,921 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-20 22:24:26,051 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-20 22:24:27,336 | INFO     | audio.wake_word | Wake word listener resources released.
+2026-08-21 13:39:28,625 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-21 13:39:30,888 | INFO     | audio.speech_to_text | Model loaded in 2.26s
+2026-08-21 13:39:31,901 | INFO     | audio.wake_word | Wake word listener initialized (model: hey_jarvis).
+2026-08-21 13:39:31,901 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-21 13:39:31,901 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-21 13:39:34,309 | INFO     | __main__ | Assistant fully initialized. Entering main loop.
+2026-08-21 13:39:34,311 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:39:47,222 | INFO     | audio.wake_word | Wake word detected! (score: 0.65)
+2026-08-21 13:39:47,222 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:39:48,500 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:39:52,565 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:39:58,523 | INFO     | audio.speech_to_text | Transcription took 5.96s -> 'Daddy. My day?'
+2026-08-21 13:39:58,525 | WARNING  | brain.intent_parser | No intent matched for: 'daddy. my day?'
+2026-08-21 13:39:58,525 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Daddy. My day?')
+2026-08-21 13:39:58,525 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:40:01,583 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:40:18,813 | INFO     | audio.wake_word | Wake word detected! (score: 0.51)
+2026-08-21 13:40:18,813 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:40:20,080 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:40:24,131 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:40:24,649 | INFO     | audio.speech_to_text | Transcription took 0.52s -> 'Open your door.'
+2026-08-21 13:40:24,649 | WARNING  | brain.intent_parser | No intent matched for: 'open your door'
+2026-08-21 13:40:24,649 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Open your door.')
+2026-08-21 13:40:24,649 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:40:27,677 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:40:27,706 | INFO     | audio.wake_word | Wake word detected! (score: 0.94)
+2026-08-21 13:40:27,709 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:40:28,974 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:40:33,045 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:40:33,559 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Open YouTube.'
+2026-08-21 13:40:33,559 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-21 13:40:49,262 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-08-21 13:40:52,130 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-08-21 13:41:03,161 | INFO     | automation.browser.browser_controller | Navigated to youtube (https://www.youtube.com)
+2026-08-21 13:41:03,162 | INFO     | brain.context_manager | Context: website -> youtube
+2026-08-21 13:41:03,162 | INFO     | voice.text_to_speech | Speaking: 'Opening youtube.'
+2026-08-21 13:41:04,819 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:41:39,801 | INFO     | audio.wake_word | Wake word detected! (score: 0.92)
+2026-08-21 13:41:39,805 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:41:41,145 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:41:45,219 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:41:45,823 | INFO     | audio.speech_to_text | Transcription took 0.60s -> 'but search python tutorial.'
+2026-08-21 13:41:45,825 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEARCH', 'entity': 'python tutorial', 'confidence': 0.95, 'raw_text': 'but search python tutorial.'}
+2026-08-21 13:41:49,024 | INFO     | automation.browser.youtube_controller | YouTube search: 'python tutorial'
+2026-08-21 13:41:49,026 | INFO     | voice.text_to_speech | Speaking: 'Searching YouTube for python tutorial.'
+2026-08-21 13:41:51,947 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:42:03,493 | INFO     | audio.wake_word | Wake word detected! (score: 0.91)
+2026-08-21 13:42:03,493 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:42:04,710 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:42:08,765 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:42:09,271 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Play the first video.'
+2026-08-21 13:42:09,271 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'PLAY_FIRST_RESULT', 'entity': None, 'confidence': 0.95, 'raw_text': 'Play the first video.'}
+2026-08-21 13:42:09,653 | INFO     | automation.browser.youtube_controller | Playing first YouTube search result.
+2026-08-21 13:42:09,654 | INFO     | brain.context_manager | Context: media state -> playing
+2026-08-21 13:42:09,654 | INFO     | voice.text_to_speech | Speaking: 'Playing the first result.'
+2026-08-21 13:42:11,833 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:42:11,838 | INFO     | audio.wake_word | Wake word detected! (score: 0.87)
+2026-08-21 13:42:11,838 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:42:13,072 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:42:17,149 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:42:22,855 | INFO     | audio.speech_to_text | Transcription took 5.70s -> 'I'll see you in the next video.'
+2026-08-21 13:42:22,855 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'NEXT', 'entity': None, 'confidence': 0.95, 'raw_text': "I'll see you in the next video."}
+2026-08-21 13:42:22,937 | INFO     | voice.text_to_speech | Speaking: 'Playing next video.'
+2026-08-21 13:42:24,784 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:42:24,788 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-08-21 13:42:24,788 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:42:26,026 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:42:30,098 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:42:30,662 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'Skip forward'
+2026-08-21 13:42:30,662 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEEK_FORWARD', 'entity': None, 'confidence': 0.95, 'raw_text': 'Skip forward'}
+2026-08-21 13:42:30,730 | INFO     | voice.text_to_speech | Speaking: 'Skipping forward.'
+2026-08-21 13:42:32,406 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:42:32,412 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:42:32,412 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:42:33,647 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:42:37,720 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:42:38,370 | INFO     | audio.speech_to_text | Transcription took 0.65s -> 'skip forward'
+2026-08-21 13:42:38,370 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEEK_FORWARD', 'entity': None, 'confidence': 0.95, 'raw_text': 'skip forward'}
+2026-08-21 13:42:38,421 | INFO     | voice.text_to_speech | Speaking: 'Skipping forward.'
+2026-08-21 13:42:40,072 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:42:40,079 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:42:40,079 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:42:41,316 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:42:45,400 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:42:52,477 | INFO     | audio.speech_to_text | Transcription took 7.07s -> ''
+2026-08-21 13:42:52,477 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-21 13:42:52,478 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:42:55,465 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:42:55,469 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:42:55,470 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:42:56,704 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:43:00,778 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:43:01,297 | INFO     | audio.speech_to_text | Transcription took 0.52s -> 'Keep forward'
+2026-08-21 13:43:01,298 | WARNING  | brain.intent_parser | No intent matched for: 'keep forward'
+2026-08-21 13:43:01,298 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Keep forward')
+2026-08-21 13:43:01,298 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:43:04,248 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:43:33,475 | INFO     | audio.wake_word | Wake word detected! (score: 0.52)
+2026-08-21 13:43:33,475 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:43:34,684 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:43:38,749 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:43:39,313 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'skip then seconds'
+2026-08-21 13:43:39,315 | WARNING  | brain.intent_parser | No intent matched for: 'skip then seconds'
+2026-08-21 13:43:39,315 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='skip then seconds')
+2026-08-21 13:43:39,315 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:43:42,263 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:44:27,801 | INFO     | audio.wake_word | Wake word detected! (score: 0.93)
+2026-08-21 13:44:27,801 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:44:29,014 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:44:33,058 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:44:37,697 | INFO     | audio.speech_to_text | Transcription took 4.64s -> 'Forward 10 seconds.'
+2026-08-21 13:44:37,697 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEEK_FORWARD', 'entity': None, 'confidence': 0.95, 'raw_text': 'Forward 10 seconds.'}
+2026-08-21 13:44:37,748 | INFO     | voice.text_to_speech | Speaking: 'Skipping forward.'
+2026-08-21 13:44:39,406 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:44:56,147 | INFO     | audio.wake_word | Wake word detected! (score: 0.64)
+2026-08-21 13:44:56,148 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:44:57,364 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:45:01,420 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:45:01,984 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'Go backwards.'
+2026-08-21 13:45:01,984 | WARNING  | brain.intent_parser | No intent matched for: 'go backwards'
+2026-08-21 13:45:01,985 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Go backwards.')
+2026-08-21 13:45:01,985 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:45:04,933 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:45:19,913 | INFO     | audio.wake_word | Wake word detected! (score: 0.81)
+2026-08-21 13:45:19,913 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:45:21,126 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:45:25,182 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:45:25,741 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'See you backwards!'
+2026-08-21 13:45:25,741 | WARNING  | brain.intent_parser | No intent matched for: 'see you backwards!'
+2026-08-21 13:45:25,742 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='See you backwards!')
+2026-08-21 13:45:25,742 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:45:28,693 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:45:28,724 | INFO     | audio.wake_word | Wake word detected! (score: 0.82)
+2026-08-21 13:45:28,724 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:45:29,935 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:45:34,007 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:45:34,589 | INFO     | audio.speech_to_text | Transcription took 0.58s -> 'Go backwards'
+2026-08-21 13:45:34,589 | WARNING  | brain.intent_parser | No intent matched for: 'go backwards'
+2026-08-21 13:45:34,589 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Go backwards')
+2026-08-21 13:45:34,589 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:45:37,550 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:45:37,551 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:45:37,551 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:45:38,784 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:45:42,859 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:45:44,621 | INFO     | audio.speech_to_text | Transcription took 1.76s -> 'You'
+2026-08-21 13:45:44,621 | WARNING  | brain.intent_parser | No intent matched for: 'you'
+2026-08-21 13:45:44,626 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='You')
+2026-08-21 13:45:44,626 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:45:47,575 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:45:47,581 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:45:47,581 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:45:48,821 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:45:52,899 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:45:54,758 | INFO     | audio.speech_to_text | Transcription took 1.86s -> 'We'll take that.'
+2026-08-21 13:45:54,758 | WARNING  | brain.intent_parser | No intent matched for: 'we'll take that'
+2026-08-21 13:45:54,758 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='We'll take that.')
+2026-08-21 13:45:54,758 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:45:57,716 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:45:57,723 | INFO     | audio.wake_word | Wake word detected! (score: 0.93)
+2026-08-21 13:45:57,723 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:45:58,947 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:46:03,026 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:46:03,549 | INFO     | audio.speech_to_text | Transcription took 0.52s -> 'Mute. Okay.'
+2026-08-21 13:46:03,550 | WARNING  | brain.intent_parser | No intent matched for: 'mute. okay'
+2026-08-21 13:46:03,550 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Mute. Okay.')
+2026-08-21 13:46:03,550 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:46:06,506 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:46:06,513 | INFO     | audio.wake_word | Wake word detected! (score: 0.60)
+2026-08-21 13:46:06,513 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:46:07,736 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:46:11,814 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:46:11,858 | INFO     | audio.speech_to_text | Transcription took 0.04s -> ''
+2026-08-21 13:46:11,858 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-21 13:46:11,858 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:46:14,817 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:48:26,518 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:48:26,518 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:48:27,748 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:48:31,809 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:48:34,100 | INFO     | audio.speech_to_text | Transcription took 2.29s -> 'but'
+2026-08-21 13:48:34,100 | WARNING  | brain.intent_parser | No intent matched for: 'but'
+2026-08-21 13:48:34,100 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='but')
+2026-08-21 13:48:34,102 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:48:37,071 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:48:37,078 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-08-21 13:48:37,078 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:48:38,310 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:48:42,378 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:48:42,949 | INFO     | audio.speech_to_text | Transcription took 0.57s -> 'Bye'
+2026-08-21 13:48:42,949 | WARNING  | brain.intent_parser | No intent matched for: 'bye'
+2026-08-21 13:48:42,949 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Bye')
+2026-08-21 13:48:42,949 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:48:45,908 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:48:45,915 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-08-21 13:48:45,916 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:48:47,147 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:48:51,221 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:48:51,898 | INFO     | audio.speech_to_text | Transcription took 0.68s -> 'I'm a bad member because I'm bad. I'm a bad member.'
+2026-08-21 13:48:51,898 | WARNING  | brain.intent_parser | No intent matched for: 'i'm a bad member because i'm bad. i'm a bad member'
+2026-08-21 13:48:51,898 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='I'm a bad member because I'm bad. I'm a bad member.')
+2026-08-21 13:48:51,898 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:48:54,858 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:48:54,866 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-08-21 13:48:54,866 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:48:56,095 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:49:00,168 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:49:00,736 | INFO     | audio.speech_to_text | Transcription took 0.57s -> 'I think it's awesome.'
+2026-08-21 13:49:00,736 | WARNING  | brain.intent_parser | No intent matched for: 'i think it's awesome'
+2026-08-21 13:49:00,736 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='I think it's awesome.')
+2026-08-21 13:49:00,736 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:49:03,702 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:49:03,712 | INFO     | audio.wake_word | Wake word detected! (score: 0.89)
+2026-08-21 13:49:03,712 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:49:04,938 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:49:09,009 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:49:09,527 | INFO     | audio.speech_to_text | Transcription took 0.52s -> 'Here you go'
+2026-08-21 13:49:09,528 | WARNING  | brain.intent_parser | No intent matched for: 'here you go'
+2026-08-21 13:49:09,528 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Here you go')
+2026-08-21 13:49:09,528 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:49:12,488 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:49:12,494 | INFO     | audio.wake_word | Wake word detected! (score: 0.66)
+2026-08-21 13:49:12,494 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:49:13,728 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:49:17,811 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:49:18,474 | INFO     | audio.speech_to_text | Transcription took 0.66s -> 'Stay Ryla, pause'
+2026-08-21 13:49:18,474 | WARNING  | brain.intent_parser | No intent matched for: 'stay ryla, pause'
+2026-08-21 13:49:18,474 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Stay Ryla, pause')
+2026-08-21 13:49:18,475 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:49:21,428 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:49:25,134 | INFO     | audio.wake_word | Wake word detected! (score: 0.63)
+2026-08-21 13:49:25,134 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:49:26,346 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:49:30,423 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:49:30,963 | INFO     | audio.speech_to_text | Transcription took 0.54s -> 'Bye.'
+2026-08-21 13:49:30,963 | WARNING  | brain.intent_parser | No intent matched for: 'bye'
+2026-08-21 13:49:30,963 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Bye.')
+2026-08-21 13:49:30,963 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:49:33,921 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:49:52,734 | INFO     | audio.wake_word | Wake word detected! (score: 0.53)
+2026-08-21 13:49:52,735 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:49:53,945 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:49:58,004 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:49:58,568 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'Next. Next.'
+2026-08-21 13:49:58,569 | WARNING  | brain.intent_parser | No intent matched for: 'next. next'
+2026-08-21 13:49:58,569 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Next. Next.')
+2026-08-21 13:49:58,569 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:50:01,517 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:50:01,526 | INFO     | audio.wake_word | Wake word detected! (score: 0.65)
+2026-08-21 13:50:01,526 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:50:02,757 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:50:06,835 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:50:07,440 | INFO     | audio.speech_to_text | Transcription took 0.61s -> 'Yeah. Yeah. Yeah. Boys.'
+2026-08-21 13:50:07,442 | WARNING  | brain.intent_parser | No intent matched for: 'yeah. yeah. yeah. boys'
+2026-08-21 13:50:07,442 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Yeah. Yeah. Yeah. Boys.')
+2026-08-21 13:50:07,442 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:50:10,397 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:50:10,406 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:50:10,406 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:50:11,635 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:50:15,713 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:50:16,233 | INFO     | audio.speech_to_text | Transcription took 0.52s -> 'Oh, it's boys'
+2026-08-21 13:50:16,233 | WARNING  | brain.intent_parser | No intent matched for: 'oh, it's boys'
+2026-08-21 13:50:16,233 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Oh, it's boys')
+2026-08-21 13:50:16,233 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:50:19,192 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:50:42,091 | INFO     | audio.wake_word | Wake word detected! (score: 0.87)
+2026-08-21 13:50:42,091 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:50:43,309 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:50:47,376 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:50:47,933 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'Boys'
+2026-08-21 13:50:47,933 | WARNING  | brain.intent_parser | No intent matched for: 'boys'
+2026-08-21 13:50:47,933 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Boys')
+2026-08-21 13:50:47,933 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:50:50,886 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:50:50,890 | INFO     | audio.wake_word | Wake word detected! (score: 0.58)
+2026-08-21 13:50:50,890 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:50:52,117 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:50:56,190 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:50:56,768 | INFO     | audio.speech_to_text | Transcription took 0.58s -> ''
+2026-08-21 13:50:56,768 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-21 13:50:56,768 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:50:59,721 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:51:08,139 | INFO     | audio.wake_word | Wake word detected! (score: 0.69)
+2026-08-21 13:51:08,139 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:51:09,343 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:51:13,395 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:51:13,952 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'next'
+2026-08-21 13:51:13,952 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'NEXT', 'entity': None, 'confidence': 0.95, 'raw_text': 'next'}
+2026-08-21 13:51:14,010 | INFO     | voice.text_to_speech | Speaking: 'Playing next video.'
+2026-08-21 13:51:15,843 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:51:28,347 | INFO     | audio.wake_word | Wake word detected! (score: 0.59)
+2026-08-21 13:51:28,348 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:51:29,566 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:51:33,628 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:51:34,124 | INFO     | audio.speech_to_text | Transcription took 0.50s -> 'please'
+2026-08-21 13:51:34,124 | WARNING  | brain.intent_parser | No intent matched for: 'please'
+2026-08-21 13:51:34,124 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='please')
+2026-08-21 13:51:34,124 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:51:37,080 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:51:37,080 | INFO     | audio.wake_word | Wake word detected! (score: 0.87)
+2026-08-21 13:51:37,088 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:51:38,320 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:51:42,401 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:51:42,916 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Play the video.'
+2026-08-21 13:51:42,916 | WARNING  | brain.intent_parser | No intent matched for: 'play the video'
+2026-08-21 13:51:42,916 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Play the video.')
+2026-08-21 13:51:42,916 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:51:45,960 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:51:45,968 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:51:45,968 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:51:47,261 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:51:51,327 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:51:51,887 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'Blee'
+2026-08-21 13:51:51,887 | WARNING  | brain.intent_parser | No intent matched for: 'blee'
+2026-08-21 13:51:51,889 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Blee')
+2026-08-21 13:51:51,889 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:51:54,918 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:51:54,921 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:51:54,921 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:51:56,184 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:52:00,262 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:52:05,150 | INFO     | audio.speech_to_text | Transcription took 4.89s -> 'You'
+2026-08-21 13:52:05,150 | WARNING  | brain.intent_parser | No intent matched for: 'you'
+2026-08-21 13:52:05,150 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='You')
+2026-08-21 13:52:05,154 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:52:08,122 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:52:08,128 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-08-21 13:52:08,128 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:52:09,413 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:52:13,493 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:52:14,072 | INFO     | audio.speech_to_text | Transcription took 0.58s -> 'This is what I'm talking about. I'm talking about what I'm talking about.'
+2026-08-21 13:52:14,072 | WARNING  | brain.intent_parser | No intent matched for: 'this is what i'm talking about. i'm talking about what i'm talking about'
+2026-08-21 13:52:14,072 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='This is what I'm talking about. I'm talking about what I'm talking about.')
+2026-08-21 13:52:14,072 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:52:17,107 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:52:17,134 | INFO     | audio.wake_word | Wake word detected! (score: 0.89)
+2026-08-21 13:52:17,134 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:52:18,404 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:52:22,477 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:52:23,031 | INFO     | audio.speech_to_text | Transcription took 0.55s -> 'I do. I do. Both. All right.'
+2026-08-21 13:52:23,031 | WARNING  | brain.intent_parser | No intent matched for: 'i do. i do. both. all right'
+2026-08-21 13:52:23,033 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='I do. I do. Both. All right.')
+2026-08-21 13:52:23,033 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:52:26,061 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:52:30,563 | INFO     | audio.wake_word | Wake word detected! (score: 0.87)
+2026-08-21 13:52:30,563 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:52:31,841 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:52:35,900 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:52:40,209 | INFO     | audio.speech_to_text | Transcription took 4.31s -> 'you'
+2026-08-21 13:52:40,211 | WARNING  | brain.intent_parser | No intent matched for: 'you'
+2026-08-21 13:52:40,211 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='you')
+2026-08-21 13:52:40,211 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:52:43,245 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:52:43,245 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:52:43,245 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:52:44,533 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:52:48,603 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:52:49,107 | INFO     | audio.speech_to_text | Transcription took 0.50s -> 'Open Task Manager'
+2026-08-21 13:52:49,107 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'taskmanager', 'confidence': 0.95, 'raw_text': 'Open Task Manager'}
+2026-08-21 13:52:49,122 | INFO     | automation.app_controller | Launched app: taskmanager
+2026-08-21 13:52:49,122 | INFO     | brain.context_manager | Context: application -> taskmanager
+2026-08-21 13:52:49,125 | INFO     | voice.text_to_speech | Speaking: 'Opening taskmanager.'
+2026-08-21 13:52:51,141 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:52:51,144 | INFO     | audio.wake_word | Wake word detected! (score: 0.96)
+2026-08-21 13:52:51,144 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:52:52,429 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:52:56,500 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:53:01,432 | INFO     | audio.speech_to_text | Transcription took 4.93s -> 'We're going to do a second, uh, a second. Sure.'
+2026-08-21 13:53:01,432 | WARNING  | brain.intent_parser | No intent matched for: 'we're going to do a second, uh, a second. sure'
+2026-08-21 13:53:01,432 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='We're going to do a second, uh, a second. Sure.')
+2026-08-21 13:53:01,432 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:53:04,481 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:53:04,481 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:53:04,481 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:53:05,779 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:53:09,844 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:53:10,442 | INFO     | audio.speech_to_text | Transcription took 0.60s -> 'But what can we do here?'
+2026-08-21 13:53:10,442 | WARNING  | brain.intent_parser | No intent matched for: 'but what can we do here?'
+2026-08-21 13:53:10,442 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='But what can we do here?')
+2026-08-21 13:53:10,442 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:53:13,475 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:53:13,479 | INFO     | audio.wake_word | Wake word detected! (score: 0.54)
+2026-08-21 13:53:13,479 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:53:14,769 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:53:18,842 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:53:19,381 | INFO     | audio.speech_to_text | Transcription took 0.54s -> 'and you'
+2026-08-21 13:53:19,381 | WARNING  | brain.intent_parser | No intent matched for: 'and you'
+2026-08-21 13:53:19,391 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='and you')
+2026-08-21 13:53:19,391 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:53:22,425 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:53:28,112 | INFO     | audio.wake_word | Wake word detected! (score: 0.59)
+2026-08-21 13:53:28,112 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:53:29,404 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:53:33,478 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:53:34,088 | INFO     | audio.speech_to_text | Transcription took 0.61s -> 'Good. Good. Good. Good. Good.'
+2026-08-21 13:53:34,088 | WARNING  | brain.intent_parser | No intent matched for: 'good. good. good. good. good'
+2026-08-21 13:53:34,090 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Good. Good. Good. Good. Good.')
+2026-08-21 13:53:34,090 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:53:37,118 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:53:37,118 | INFO     | audio.wake_word | Wake word detected! (score: 0.86)
+2026-08-21 13:53:37,118 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:53:38,418 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:53:42,488 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:53:46,332 | INFO     | audio.speech_to_text | Transcription took 3.84s -> 'You'
+2026-08-21 13:53:46,332 | WARNING  | brain.intent_parser | No intent matched for: 'you'
+2026-08-21 13:53:46,337 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='You')
+2026-08-21 13:53:46,337 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:53:49,376 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:53:49,378 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:53:49,378 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:53:50,676 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:53:54,745 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:53:59,162 | INFO     | audio.speech_to_text | Transcription took 4.42s -> '. . . . . . . . . . . . . .'
+2026-08-21 13:53:59,162 | WARNING  | brain.intent_parser | No intent matched for: '. . . . . . . . . . . . . '
+2026-08-21 13:53:59,162 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='. . . . . . . . . . . . . .')
+2026-08-21 13:53:59,162 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:54:02,209 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:54:02,220 | INFO     | audio.wake_word | Wake word detected! (score: 0.96)
+2026-08-21 13:54:02,220 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:54:03,512 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:54:07,587 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:54:08,212 | INFO     | audio.speech_to_text | Transcription took 0.62s -> 'May I have a concern for you? As you can see, I'm glad you said that.'
+2026-08-21 13:54:08,212 | WARNING  | brain.intent_parser | No intent matched for: 'may i have a concern for you? as you can see, i'm glad you said that'
+2026-08-21 13:54:08,212 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='May I have a concern for you? As you can see, I'm glad you said that.')
+2026-08-21 13:54:08,212 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:54:11,244 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:54:15,982 | INFO     | audio.wake_word | Wake word detected! (score: 0.96)
+2026-08-21 13:54:15,982 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:54:17,271 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:54:21,343 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:54:26,643 | INFO     | audio.speech_to_text | Transcription took 5.30s -> 'You damn. Install one and then. All right.'
+2026-08-21 13:54:26,643 | WARNING  | brain.intent_parser | No intent matched for: 'you damn. install one and then. all right'
+2026-08-21 13:54:26,643 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='You damn. Install one and then. All right.')
+2026-08-21 13:54:26,643 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:54:29,683 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:54:29,683 | INFO     | audio.wake_word | Wake word detected! (score: 0.96)
+2026-08-21 13:54:29,683 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:54:30,984 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:54:35,058 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:54:40,446 | INFO     | audio.speech_to_text | Transcription took 5.39s -> 'Yeah.'
+2026-08-21 13:54:40,446 | WARNING  | brain.intent_parser | No intent matched for: 'yeah'
+2026-08-21 13:54:40,446 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Yeah.')
+2026-08-21 13:54:40,446 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:54:43,493 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:54:43,493 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:54:43,493 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:54:44,800 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:54:48,871 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:54:49,410 | INFO     | audio.speech_to_text | Transcription took 0.54s -> 'Here's a pull from Manavara head.'
+2026-08-21 13:54:49,410 | WARNING  | brain.intent_parser | No intent matched for: 'here's a pull from manavara head'
+2026-08-21 13:54:49,412 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Here's a pull from Manavara head.')
+2026-08-21 13:54:49,412 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:54:52,443 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:54:52,443 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:54:52,443 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:54:53,737 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:54:57,807 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:55:03,799 | INFO     | audio.speech_to_text | Transcription took 5.99s -> 'Okay. Okay. Time.'
+2026-08-21 13:55:03,799 | WARNING  | brain.intent_parser | No intent matched for: 'okay. okay. time'
+2026-08-21 13:55:03,799 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Okay. Okay. Time.')
+2026-08-21 13:55:03,799 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:55:06,832 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:55:06,832 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:55:06,832 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:55:08,140 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:55:12,215 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:55:12,259 | INFO     | audio.speech_to_text | Transcription took 0.04s -> ''
+2026-08-21 13:55:12,259 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-21 13:55:12,259 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:55:15,316 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:55:15,323 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:55:15,323 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:55:16,624 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:55:20,691 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:55:22,958 | INFO     | audio.speech_to_text | Transcription took 2.27s -> 'It's in each other.'
+2026-08-21 13:55:22,958 | WARNING  | brain.intent_parser | No intent matched for: 'it's in each other'
+2026-08-21 13:55:22,958 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='It's in each other.')
+2026-08-21 13:55:22,958 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:55:26,002 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:55:49,215 | INFO     | audio.wake_word | Wake word detected! (score: 0.80)
+2026-08-21 13:55:49,215 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:55:50,492 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:55:54,571 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:55:56,510 | INFO     | audio.speech_to_text | Transcription took 1.94s -> 'Short.'
+2026-08-21 13:55:56,510 | WARNING  | brain.intent_parser | No intent matched for: 'short'
+2026-08-21 13:55:56,510 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Short.')
+2026-08-21 13:55:56,510 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:55:59,543 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:55:59,550 | INFO     | audio.wake_word | Wake word detected! (score: 0.92)
+2026-08-21 13:55:59,550 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:56:00,849 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:56:04,920 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:56:05,431 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'Take a screenshot.'
+2026-08-21 13:56:05,431 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SCREENSHOT', 'entity': None, 'confidence': 0.95, 'raw_text': 'Take a screenshot.'}
+2026-08-21 13:56:05,622 | INFO     | automation.screenshot_controller | Screenshot saved: D:\college\capstone\windows_voice_assistant\screenshots\screenshot_20260821_135605.png
+2026-08-21 13:56:05,622 | INFO     | voice.text_to_speech | Speaking: 'Screenshot taken.'
+2026-08-21 13:56:07,565 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:56:07,577 | INFO     | audio.wake_word | Wake word detected! (score: 0.96)
+2026-08-21 13:56:07,577 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:56:08,884 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:56:12,971 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:56:15,942 | INFO     | audio.speech_to_text | Transcription took 2.97s -> 'What do you want to do?'
+2026-08-21 13:56:15,942 | WARNING  | brain.intent_parser | No intent matched for: 'what do you want to do?'
+2026-08-21 13:56:15,942 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='What do you want to do?')
+2026-08-21 13:56:15,942 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:56:18,978 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:56:23,312 | INFO     | audio.wake_word | Wake word detected! (score: 0.76)
+2026-08-21 13:56:23,312 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:56:24,593 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:56:28,661 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:56:29,254 | INFO     | audio.speech_to_text | Transcription took 0.59s -> 'Volume up.'
+2026-08-21 13:56:29,254 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_UP', 'entity': None, 'confidence': 0.95, 'raw_text': 'Volume up.'}
+2026-08-21 13:56:29,270 | INFO     | automation.volume_controller | Volume set to 100%
+2026-08-21 13:56:29,270 | INFO     | voice.text_to_speech | Speaking: 'Volume increased to 100 percent.'
+2026-08-21 13:56:32,261 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:56:32,261 | INFO     | audio.wake_word | Wake word detected! (score: 0.65)
+2026-08-21 13:56:32,261 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:56:33,552 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:56:37,622 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:56:38,159 | INFO     | audio.speech_to_text | Transcription took 0.54s -> 'Later video'
+2026-08-21 13:56:38,159 | WARNING  | brain.intent_parser | No intent matched for: 'later video'
+2026-08-21 13:56:38,159 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Later video')
+2026-08-21 13:56:38,159 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:56:41,202 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:56:45,056 | INFO     | audio.wake_word | Wake word detected! (score: 0.72)
+2026-08-21 13:56:45,056 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:56:46,339 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:56:50,417 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:56:51,039 | INFO     | audio.speech_to_text | Transcription took 0.62s -> 'It's good, anyway, it's good. Anyway, it's good.'
+2026-08-21 13:56:51,039 | WARNING  | brain.intent_parser | No intent matched for: 'it's good, anyway, it's good. anyway, it's good'
+2026-08-21 13:56:51,039 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='It's good, anyway, it's good. Anyway, it's good.')
+2026-08-21 13:56:51,039 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:56:54,066 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:56:54,070 | INFO     | audio.wake_word | Wake word detected! (score: 0.58)
+2026-08-21 13:56:54,070 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:56:55,372 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:56:59,436 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:56:59,982 | INFO     | audio.speech_to_text | Transcription took 0.55s -> 'Play the video.'
+2026-08-21 13:56:59,982 | WARNING  | brain.intent_parser | No intent matched for: 'play the video'
+2026-08-21 13:56:59,982 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Play the video.')
+2026-08-21 13:56:59,982 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:57:03,013 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:57:03,013 | INFO     | audio.wake_word | Wake word detected! (score: 0.58)
+2026-08-21 13:57:03,013 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:57:04,313 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:57:08,393 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:57:08,896 | INFO     | audio.speech_to_text | Transcription took 0.50s -> 'Play.'
+2026-08-21 13:57:08,896 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'PLAY', 'entity': None, 'confidence': 0.95, 'raw_text': 'Play.'}
+2026-08-21 13:57:09,006 | INFO     | brain.context_manager | Context: media state -> playing
+2026-08-21 13:57:09,011 | INFO     | voice.text_to_speech | Speaking: 'Playing.'
+2026-08-21 13:57:10,375 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:57:10,375 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-08-21 13:57:10,375 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:57:11,612 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:57:15,686 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:57:16,242 | INFO     | audio.speech_to_text | Transcription took 0.55s -> 'Bye'
+2026-08-21 13:57:16,243 | WARNING  | brain.intent_parser | No intent matched for: 'bye'
+2026-08-21 13:57:16,243 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Bye')
+2026-08-21 13:57:16,243 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:57:19,194 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:57:28,737 | INFO     | audio.wake_word | Wake word detected! (score: 0.96)
+2026-08-21 13:57:28,737 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:57:29,953 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:57:34,009 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:57:37,135 | INFO     | audio.speech_to_text | Transcription took 3.13s -> 'and you pause'
+2026-08-21 13:57:37,135 | WARNING  | brain.intent_parser | No intent matched for: 'and you pause'
+2026-08-21 13:57:37,135 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='and you pause')
+2026-08-21 13:57:37,135 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:57:40,104 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:57:40,114 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:57:40,114 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:57:41,354 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:57:45,433 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:57:45,957 | INFO     | audio.speech_to_text | Transcription took 0.52s -> 'Volume down.'
+2026-08-21 13:57:45,957 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_DOWN', 'entity': None, 'confidence': 0.95, 'raw_text': 'Volume down.'}
+2026-08-21 13:57:45,962 | INFO     | automation.volume_controller | Volume set to 90%
+2026-08-21 13:57:45,962 | INFO     | voice.text_to_speech | Speaking: 'Volume decreased to 90 percent.'
+2026-08-21 13:57:48,606 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:57:48,612 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:57:48,612 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:57:49,844 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:57:53,919 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:57:54,490 | INFO     | audio.speech_to_text | Transcription took 0.57s -> 'And I let it up.'
+2026-08-21 13:57:54,490 | WARNING  | brain.intent_parser | No intent matched for: 'and i let it up'
+2026-08-21 13:57:54,491 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='And I let it up.')
+2026-08-21 13:57:54,491 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:57:57,448 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:58:05,305 | INFO     | audio.wake_word | Wake word detected! (score: 0.92)
+2026-08-21 13:58:05,305 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:58:06,523 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:58:10,585 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:58:11,117 | INFO     | audio.speech_to_text | Transcription took 0.53s -> 'phylic brother'
+2026-08-21 13:58:11,117 | WARNING  | brain.intent_parser | No intent matched for: 'phylic brother'
+2026-08-21 13:58:11,117 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='phylic brother')
+2026-08-21 13:58:11,117 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:58:14,076 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:58:14,076 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 13:58:14,076 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:58:15,313 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:58:19,383 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:58:19,891 | INFO     | audio.speech_to_text | Transcription took 0.51s -> 'one file explorer'
+2026-08-21 13:58:19,891 | WARNING  | brain.intent_parser | No intent matched for: 'one file explorer'
+2026-08-21 13:58:19,891 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='one file explorer')
+2026-08-21 13:58:19,891 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:58:22,845 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:58:22,855 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:58:22,857 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:58:24,085 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:58:28,151 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:58:28,676 | INFO     | audio.speech_to_text | Transcription took 0.52s -> 'Open File Explorer.'
+2026-08-21 13:58:28,676 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'explorer', 'confidence': 0.95, 'raw_text': 'Open File Explorer.'}
+2026-08-21 13:58:28,698 | INFO     | automation.app_controller | Launched app: explorer
+2026-08-21 13:58:28,698 | INFO     | brain.context_manager | Context: application -> explorer
+2026-08-21 13:58:28,698 | INFO     | voice.text_to_speech | Speaking: 'Opening explorer.'
+2026-08-21 13:58:30,435 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:58:30,439 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 13:58:30,439 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:58:31,673 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:58:35,748 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:58:36,420 | INFO     | audio.speech_to_text | Transcription took 0.67s -> 'It's number number'
+2026-08-21 13:58:36,420 | WARNING  | brain.intent_parser | No intent matched for: 'it's number number'
+2026-08-21 13:58:36,420 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='It's number number')
+2026-08-21 13:58:36,422 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:58:39,377 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:58:39,385 | INFO     | audio.wake_word | Wake word detected! (score: 0.91)
+2026-08-21 13:58:39,385 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:58:40,613 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:58:44,690 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:58:45,383 | INFO     | audio.speech_to_text | Transcription took 0.69s -> 'It's a three-level project.'
+2026-08-21 13:58:45,383 | WARNING  | brain.intent_parser | No intent matched for: 'it's a three-level project'
+2026-08-21 13:58:45,383 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='It's a three-level project.')
+2026-08-21 13:58:45,384 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:58:48,333 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:58:48,339 | INFO     | audio.wake_word | Wake word detected! (score: 0.76)
+2026-08-21 13:58:48,339 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:58:49,573 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:58:53,651 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:58:57,224 | INFO     | audio.speech_to_text | Transcription took 3.57s -> 'I'
+2026-08-21 13:58:57,224 | WARNING  | brain.intent_parser | No intent matched for: 'i'
+2026-08-21 13:58:57,227 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='I')
+2026-08-21 13:58:57,227 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:59:00,174 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:59:09,388 | INFO     | audio.wake_word | Wake word detected! (score: 0.72)
+2026-08-21 13:59:09,388 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:59:10,594 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:59:14,646 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:59:17,102 | INFO     | audio.speech_to_text | Transcription took 2.46s -> 'Mute.'
+2026-08-21 13:59:17,103 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'MUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'Mute.'}
+2026-08-21 13:59:17,108 | INFO     | automation.volume_controller | Muted
+2026-08-21 13:59:17,108 | INFO     | voice.text_to_speech | Speaking: 'Muted.'
+2026-08-21 13:59:18,334 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:59:22,990 | INFO     | audio.wake_word | Wake word detected! (score: 0.53)
+2026-08-21 13:59:22,990 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:59:24,193 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:59:28,244 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:59:28,813 | INFO     | audio.speech_to_text | Transcription took 0.57s -> 'Unmute.'
+2026-08-21 13:59:28,813 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'UNMUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'Unmute.'}
+2026-08-21 13:59:28,818 | INFO     | automation.volume_controller | Unmuted
+2026-08-21 13:59:28,818 | INFO     | voice.text_to_speech | Speaking: 'Unmuted.'
+2026-08-21 13:59:30,164 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:59:30,168 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-08-21 13:59:30,168 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:59:31,393 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:59:35,467 | INFO     | audio.microphone | Recording finished.
+2026-08-21 13:59:36,148 | INFO     | audio.speech_to_text | Transcription took 0.68s -> 'It's too long away'
+2026-08-21 13:59:36,148 | WARNING  | brain.intent_parser | No intent matched for: 'it's too long away'
+2026-08-21 13:59:36,149 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='It's too long away')
+2026-08-21 13:59:36,149 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 13:59:39,123 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 13:59:39,123 | INFO     | audio.wake_word | Wake word detected! (score: 0.76)
+2026-08-21 13:59:39,123 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 13:59:40,354 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 13:59:44,429 | INFO     | __main__ | Shutdown requested via KeyboardInterrupt.
+2026-08-21 13:59:44,429 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-21 13:59:45,761 | INFO     | audio.wake_word | Wake word listener resources released.
+2026-08-21 13:59:45,819 | INFO     | automation.browser.browser_controller | Playwright connection closed.
+2026-08-21 13:59:45,819 | INFO     | __main__ | All resources released. Assistant stopped cleanly.
+2026-08-21 14:04:23,178 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-21 14:04:24,892 | INFO     | audio.speech_to_text | Model loaded in 1.71s
+2026-08-21 14:04:25,245 | INFO     | audio.wake_word | Wake word listener initialized (model: hey_jarvis).
+2026-08-21 14:04:25,245 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-21 14:04:25,246 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-21 14:04:27,579 | INFO     | __main__ | Assistant fully initialized. Entering main loop.
+2026-08-21 14:04:27,579 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:04:29,640 | INFO     | audio.wake_word | Wake word detected! (score: 0.95)
+2026-08-21 14:04:29,640 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:04:30,925 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:04:34,990 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:04:35,639 | INFO     | audio.speech_to_text | Transcription took 0.65s -> 'Get my time'
+2026-08-21 14:04:35,641 | WARNING  | brain.intent_parser | No intent matched for: 'get my time'
+2026-08-21 14:04:35,641 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Get my time')
+2026-08-21 14:04:35,643 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:04:38,682 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:04:38,687 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 14:04:38,687 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:04:39,966 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:04:44,034 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:04:44,523 | INFO     | audio.speech_to_text | Transcription took 0.49s -> 'What is the time?'
+2026-08-21 14:04:44,523 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'GET_TIME', 'entity': None, 'confidence': 0.95, 'raw_text': 'What is the time?'}
+2026-08-21 14:04:44,523 | INFO     | automation.system_controller | Current time requested: 2:04 PM
+2026-08-21 14:04:44,523 | INFO     | voice.text_to_speech | Speaking: 'It is currently 2:04 PM'
+2026-08-21 14:04:47,246 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:04:47,246 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-08-21 14:04:47,246 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:04:48,548 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:04:52,618 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:04:53,196 | INFO     | audio.speech_to_text | Transcription took 0.58s -> 'We'll drive on to the top. But I was going to drive on to the top.'
+2026-08-21 14:04:53,198 | WARNING  | brain.intent_parser | No intent matched for: 'we'll drive on to the top. but i was going to drive on to the top'
+2026-08-21 14:04:53,198 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='We'll drive on to the top. But I was going to drive on to the top.')
+2026-08-21 14:04:53,198 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:04:56,225 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:04:56,227 | INFO     | audio.wake_word | Wake word detected! (score: 0.93)
+2026-08-21 14:04:56,227 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:04:57,544 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:05:01,613 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:05:02,117 | INFO     | audio.speech_to_text | Transcription took 0.50s -> 'What is the time?'
+2026-08-21 14:05:02,117 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'GET_TIME', 'entity': None, 'confidence': 0.95, 'raw_text': 'What is the time?'}
+2026-08-21 14:05:02,117 | INFO     | automation.system_controller | Current time requested: 2:05 PM
+2026-08-21 14:05:02,117 | INFO     | voice.text_to_speech | Speaking: 'It is currently 2:05 PM'
+2026-08-21 14:05:04,886 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:05:04,886 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 14:05:04,886 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:05:06,180 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:05:10,247 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:05:10,742 | INFO     | audio.speech_to_text | Transcription took 0.50s -> 'Take a screenshot'
+2026-08-21 14:05:10,742 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SCREENSHOT', 'entity': None, 'confidence': 0.95, 'raw_text': 'Take a screenshot'}
+2026-08-21 14:05:10,844 | INFO     | automation.screenshot_controller | Screenshot saved: D:\college\capstone\windows_voice_assistant\screenshots\screenshot_20260821_140510.png
+2026-08-21 14:05:10,850 | INFO     | voice.text_to_speech | Speaking: 'Screenshot taken.'
+2026-08-21 14:05:12,754 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:05:23,489 | INFO     | audio.wake_word | Wake word detected! (score: 0.84)
+2026-08-21 14:05:23,489 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:05:24,760 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:05:28,823 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:05:29,303 | INFO     | audio.speech_to_text | Transcription took 0.48s -> 'I am down.'
+2026-08-21 14:05:29,303 | WARNING  | brain.intent_parser | No intent matched for: 'i am down'
+2026-08-21 14:05:29,303 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='I am down.')
+2026-08-21 14:05:29,303 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:05:32,341 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:06:59,239 | INFO     | audio.wake_word | Wake word detected! (score: 0.91)
+2026-08-21 14:06:59,239 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:07:00,513 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:07:04,588 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:07:05,044 | INFO     | audio.speech_to_text | Transcription took 0.46s -> 'You'
+2026-08-21 14:07:05,044 | WARNING  | brain.intent_parser | No intent matched for: 'you'
+2026-08-21 14:07:05,044 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='You')
+2026-08-21 14:07:05,044 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:07:08,082 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:07:08,082 | INFO     | audio.wake_word | Wake word detected! (score: 0.88)
+2026-08-21 14:07:08,082 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:07:09,366 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:07:13,445 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:07:15,488 | INFO     | audio.speech_to_text | Transcription took 2.04s -> 'the mute'
+2026-08-21 14:07:15,488 | WARNING  | brain.intent_parser | No intent matched for: 'the mute'
+2026-08-21 14:07:15,488 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='the mute')
+2026-08-21 14:07:15,488 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:07:18,524 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:07:18,529 | INFO     | audio.wake_word | Wake word detected! (score: 0.93)
+2026-08-21 14:07:18,529 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:07:19,831 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:07:23,904 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:07:24,389 | INFO     | audio.speech_to_text | Transcription took 0.48s -> 'You double on your...'
+2026-08-21 14:07:24,389 | WARNING  | brain.intent_parser | No intent matched for: 'you double on your'
+2026-08-21 14:07:24,389 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='You double on your...')
+2026-08-21 14:07:24,389 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:07:27,419 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:07:35,195 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-08-21 14:07:35,195 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:07:36,466 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:07:40,542 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:07:41,025 | INFO     | audio.speech_to_text | Transcription took 0.48s -> 'mute the volume'
+2026-08-21 14:07:41,025 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'MUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'mute the volume'}
+2026-08-21 14:07:41,040 | INFO     | automation.volume_controller | Muted
+2026-08-21 14:07:41,040 | INFO     | voice.text_to_speech | Speaking: 'Muted.'
+2026-08-21 14:07:42,341 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:08:11,714 | INFO     | __main__ | Shutdown requested via KeyboardInterrupt.
+2026-08-21 14:08:11,714 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-21 14:08:12,998 | INFO     | audio.wake_word | Wake word listener resources released.
+2026-08-21 14:08:12,998 | INFO     | __main__ | All resources released. Assistant stopped cleanly.
+2026-08-21 14:37:50,649 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-21 14:37:53,040 | INFO     | audio.speech_to_text | Model loaded in 2.39s
+2026-08-21 14:37:53,361 | INFO     | audio.wake_word | Wake word listener initialized (model: hey_jarvis).
+2026-08-21 14:37:53,361 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-08-21 14:37:53,361 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-08-21 14:37:55,867 | INFO     | __main__ | Assistant fully initialized. Entering main loop.
+2026-08-21 14:37:55,867 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:38:01,554 | INFO     | audio.wake_word | Wake word detected! (score: 0.70)
+2026-08-21 14:38:01,554 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:38:02,912 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:38:07,003 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:38:07,963 | INFO     | audio.speech_to_text | Transcription took 0.96s -> 'volume up'
+2026-08-21 14:38:07,963 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_UP', 'entity': None, 'confidence': 0.95, 'raw_text': 'volume up'}
+2026-08-21 14:38:07,980 | INFO     | automation.volume_controller | Volume set to 60%
+2026-08-21 14:38:07,988 | INFO     | voice.text_to_speech | Speaking: 'Volume increased to 60 percent.'
+2026-08-21 14:38:10,790 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:38:10,790 | INFO     | audio.wake_word | Wake word detected! (score: 0.87)
+2026-08-21 14:38:10,790 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:38:12,121 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:38:16,205 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:38:16,882 | INFO     | audio.speech_to_text | Transcription took 0.67s -> 'Oh'
+2026-08-21 14:38:16,882 | WARNING  | brain.intent_parser | No intent matched for: 'oh'
+2026-08-21 14:38:16,888 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Oh')
+2026-08-21 14:38:16,888 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:38:19,946 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:38:19,946 | INFO     | audio.wake_word | Wake word detected! (score: 0.85)
+2026-08-21 14:38:19,946 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:38:21,286 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:38:25,373 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:38:26,074 | INFO     | audio.speech_to_text | Transcription took 0.70s -> 'volume up'
+2026-08-21 14:38:26,074 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_UP', 'entity': None, 'confidence': 0.95, 'raw_text': 'volume up'}
+2026-08-21 14:38:26,083 | INFO     | automation.volume_controller | Volume set to 70%
+2026-08-21 14:38:26,083 | INFO     | voice.text_to_speech | Speaking: 'Volume increased to 70 percent.'
+2026-08-21 14:38:28,932 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:38:28,936 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 14:38:28,936 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:38:30,271 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:38:34,355 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:38:35,091 | INFO     | audio.speech_to_text | Transcription took 0.74s -> 'Volume down.'
+2026-08-21 14:38:35,091 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_DOWN', 'entity': None, 'confidence': 0.95, 'raw_text': 'Volume down.'}
+2026-08-21 14:38:35,093 | INFO     | automation.volume_controller | Volume set to 60%
+2026-08-21 14:38:35,093 | INFO     | voice.text_to_speech | Speaking: 'Volume decreased to 60 percent.'
+2026-08-21 14:38:37,890 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:38:37,896 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-08-21 14:38:37,896 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:38:39,215 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:38:43,299 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:38:43,981 | INFO     | audio.speech_to_text | Transcription took 0.68s -> 'Open YouTube.'
+2026-08-21 14:38:43,981 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-08-21 14:38:44,809 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-08-21 14:38:47,740 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-08-21 14:38:53,839 | INFO     | automation.browser.browser_controller | Navigated to youtube (https://www.youtube.com)
+2026-08-21 14:38:53,840 | INFO     | brain.context_manager | Context: website -> youtube
+2026-08-21 14:38:53,841 | INFO     | voice.text_to_speech | Speaking: 'Opening youtube.'
+2026-08-21 14:38:55,539 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:38:55,544 | INFO     | audio.wake_word | Wake word detected! (score: 0.87)
+2026-08-21 14:38:55,547 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:38:56,778 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:39:00,861 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:39:02,025 | INFO     | audio.speech_to_text | Transcription took 1.16s -> 'First python tutorial.'
+2026-08-21 14:39:02,027 | WARNING  | brain.intent_parser | No intent matched for: 'first python tutorial'
+2026-08-21 14:39:02,027 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='First python tutorial.')
+2026-08-21 14:39:02,027 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:39:04,993 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:39:10,300 | INFO     | audio.wake_word | Wake word detected! (score: 0.87)
+2026-08-21 14:39:10,301 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:39:11,644 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:39:15,722 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:39:16,744 | INFO     | audio.speech_to_text | Transcription took 1.02s -> 'spies and tutorial'
+2026-08-21 14:39:16,746 | WARNING  | brain.intent_parser | No intent matched for: 'spies and tutorial'
+2026-08-21 14:39:16,746 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='spies and tutorial')
+2026-08-21 14:39:16,746 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:39:19,813 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:39:19,821 | INFO     | audio.wake_word | Wake word detected! (score: 0.93)
+2026-08-21 14:39:19,823 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:39:21,147 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:39:25,226 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:39:25,973 | INFO     | audio.speech_to_text | Transcription took 0.74s -> 'Search python tutorial'
+2026-08-21 14:39:25,973 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEARCH', 'entity': 'python tutorial', 'confidence': 0.95, 'raw_text': 'Search python tutorial'}
+2026-08-21 14:39:27,533 | INFO     | automation.browser.youtube_controller | YouTube search: 'python tutorial'
+2026-08-21 14:39:27,533 | INFO     | voice.text_to_speech | Speaking: 'Searching YouTube for python tutorial.'
+2026-08-21 14:39:30,470 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:39:30,477 | INFO     | audio.wake_word | Wake word detected! (score: 0.93)
+2026-08-21 14:39:30,477 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:39:31,720 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:39:35,805 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:39:36,797 | INFO     | audio.speech_to_text | Transcription took 0.99s -> 'Play the first video.'
+2026-08-21 14:39:36,799 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'PLAY_FIRST_RESULT', 'entity': None, 'confidence': 0.95, 'raw_text': 'Play the first video.'}
+2026-08-21 14:39:37,447 | INFO     | automation.browser.youtube_controller | Playing first YouTube search result.
+2026-08-21 14:39:37,449 | INFO     | brain.context_manager | Context: media state -> playing
+2026-08-21 14:39:37,450 | INFO     | voice.text_to_speech | Speaking: 'Playing the first result.'
+2026-08-21 14:39:39,570 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:39:55,381 | INFO     | audio.wake_word | Wake word detected! (score: 0.88)
+2026-08-21 14:39:55,381 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:39:56,614 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:40:00,683 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:40:01,670 | INFO     | audio.speech_to_text | Transcription took 0.99s -> 'Mute.'
+2026-08-21 14:40:01,670 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'MUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'Mute.'}
+2026-08-21 14:40:01,680 | INFO     | automation.volume_controller | Muted
+2026-08-21 14:40:01,680 | INFO     | voice.text_to_speech | Speaking: 'Muted.'
+2026-08-21 14:40:02,930 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:40:02,935 | INFO     | audio.wake_word | Wake word detected! (score: 0.79)
+2026-08-21 14:40:02,935 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:40:04,180 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:40:08,267 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:40:09,206 | INFO     | audio.speech_to_text | Transcription took 0.94s -> 'You'
+2026-08-21 14:40:09,206 | WARNING  | brain.intent_parser | No intent matched for: 'you'
+2026-08-21 14:40:09,206 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='You')
+2026-08-21 14:40:09,206 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:40:12,250 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:40:12,255 | INFO     | audio.wake_word | Wake word detected! (score: 0.81)
+2026-08-21 14:40:12,255 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:40:13,499 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:40:17,610 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:40:18,655 | INFO     | audio.speech_to_text | Transcription took 1.04s -> 'Very good. Yeah. How long will you listen? Yeah. Very tough.'
+2026-08-21 14:40:18,655 | WARNING  | brain.intent_parser | No intent matched for: 'very good. yeah. how long will you listen? yeah. very tough'
+2026-08-21 14:40:18,657 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Very good. Yeah. How long will you listen? Yeah. Very tough.')
+2026-08-21 14:40:18,657 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:40:21,633 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:40:26,941 | INFO     | audio.wake_word | Wake word detected! (score: 0.83)
+2026-08-21 14:40:26,941 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:40:28,170 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:40:32,235 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:40:33,130 | INFO     | audio.speech_to_text | Transcription took 0.89s -> 'Unmute. Unmute.'
+2026-08-21 14:40:33,130 | WARNING  | brain.intent_parser | No intent matched for: 'unmute. unmute'
+2026-08-21 14:40:33,135 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Unmute. Unmute.')
+2026-08-21 14:40:33,135 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:40:36,111 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:40:37,573 | INFO     | audio.wake_word | Wake word detected! (score: 0.92)
+2026-08-21 14:40:37,573 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:40:38,804 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:40:42,869 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:40:43,862 | INFO     | audio.speech_to_text | Transcription took 0.99s -> 'Unmute it.'
+2026-08-21 14:40:43,862 | WARNING  | brain.intent_parser | No intent matched for: 'unmute it'
+2026-08-21 14:40:43,862 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Unmute it.')
+2026-08-21 14:40:43,862 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:40:46,843 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:40:46,850 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 14:40:46,850 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:40:48,201 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:40:57,923 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:40:58,464 | INFO     | audio.speech_to_text | Transcription took 0.42s -> ''
+2026-08-21 14:40:58,468 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-08-21 14:40:58,472 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:41:01,849 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:41:01,903 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-08-21 14:41:01,958 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:41:03,284 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:41:07,377 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:41:09,758 | INFO     | audio.speech_to_text | Transcription took 2.38s -> 'Unmute.'
+2026-08-21 14:41:09,760 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'UNMUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'Unmute.'}
+2026-08-21 14:41:09,767 | INFO     | automation.volume_controller | Unmuted
+2026-08-21 14:41:09,769 | INFO     | voice.text_to_speech | Speaking: 'Unmuted.'
+2026-08-21 14:41:11,144 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:41:11,150 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-08-21 14:41:11,150 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-08-21 14:41:12,407 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-08-21 14:41:16,506 | INFO     | audio.microphone | Recording finished.
+2026-08-21 14:41:17,430 | INFO     | audio.speech_to_text | Transcription took 0.92s -> 'Feet forward'
+2026-08-21 14:41:17,431 | WARNING  | brain.intent_parser | No intent matched for: 'feet forward'
+2026-08-21 14:41:17,431 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Feet forward')
+2026-08-21 14:41:17,431 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-08-21 14:41:20,409 | INFO     | audio.wake_word | Listening for wake word...
+2026-08-21 14:41:27,221 | INFO     | __main__ | Shutdown requested via KeyboardInterrupt.
+2026-08-21 14:41:27,227 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-08-21 14:41:28,746 | INFO     | audio.wake_word | Wake word listener resources released.
+2026-08-21 14:41:28,819 | INFO     | automation.browser.browser_controller | Playwright connection closed.
+2026-08-21 14:41:28,819 | INFO     | __main__ | All resources released. Assistant stopped cleanly.
+2026-08-21 15:25:24,180 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-08-21 15:25:25,709 | INFO     | audio.speech_to_text | Model loaded in 1.53s
+2026-11-19 18:46:48,459 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-11-19 18:46:51,083 | INFO     | audio.speech_to_text | Model loaded in 2.62s
+2026-11-19 18:46:51,616 | INFO     | audio.wake_word | Wake word listener initialized (model: hey_jarvis).
+2026-11-19 18:46:51,616 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-11-19 18:46:51,620 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-11-19 18:46:54,294 | INFO     | __main__ | Assistant fully initialized. Entering main loop.
+2026-11-19 18:46:54,294 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:47:28,845 | INFO     | audio.wake_word | Wake word detected! (score: 0.79)
+2026-11-19 18:47:28,845 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:47:30,087 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:47:34,151 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:47:34,987 | INFO     | audio.speech_to_text | Transcription took 0.84s -> 'Open Chrome.'
+2026-11-19 18:47:34,989 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'chrome', 'confidence': 0.95, 'raw_text': 'Open Chrome.'}
+2026-11-19 18:47:35,011 | INFO     | automation.app_controller | Launched app: chrome
+2026-11-19 18:47:35,011 | INFO     | brain.context_manager | Context: application -> chrome
+2026-11-19 18:47:35,011 | INFO     | voice.text_to_speech | Speaking: 'Opening chrome.'
+2026-11-19 18:47:36,636 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:47:36,638 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:47:36,638 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:47:37,867 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:47:41,948 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:47:42,198 | INFO     | audio.speech_to_text | Transcription took 0.25s -> ''
+2026-11-19 18:47:42,205 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-11-19 18:47:42,211 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:47:45,259 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:47:45,263 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:47:45,263 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:47:46,498 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:47:50,571 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:47:51,128 | INFO     | audio.speech_to_text | Transcription took 0.56s -> 'Open VS Code'
+2026-11-19 18:47:51,128 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'vscode', 'confidence': 0.95, 'raw_text': 'Open VS Code'}
+2026-11-19 18:47:51,151 | INFO     | automation.app_controller | Launched app: vscode
+2026-11-19 18:47:51,151 | INFO     | brain.context_manager | Context: application -> vscode
+2026-11-19 18:47:51,151 | INFO     | voice.text_to_speech | Speaking: 'Opening vscode.'
+2026-11-19 18:47:52,984 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:47:52,988 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:47:52,988 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:47:54,235 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:47:58,365 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:47:58,426 | INFO     | audio.speech_to_text | Transcription took 0.06s -> ''
+2026-11-19 18:47:58,426 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-11-19 18:47:58,426 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:48:01,393 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:48:01,401 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:48:01,401 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:48:02,632 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:48:06,700 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:48:07,290 | INFO     | audio.speech_to_text | Transcription took 0.59s -> 'volume up'
+2026-11-19 18:48:07,290 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_UP', 'entity': None, 'confidence': 0.95, 'raw_text': 'volume up'}
+2026-11-19 18:48:07,299 | INFO     | automation.volume_controller | Volume set to 100%
+2026-11-19 18:48:07,299 | INFO     | voice.text_to_speech | Speaking: 'Volume increased to 100 percent.'
+2026-11-19 18:48:10,201 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:48:14,541 | INFO     | audio.wake_word | Wake word detected! (score: 0.94)
+2026-11-19 18:48:14,541 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:48:15,830 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:48:19,893 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:48:22,197 | INFO     | audio.speech_to_text | Transcription took 2.30s -> 'Align down.'
+2026-11-19 18:48:22,199 | WARNING  | brain.intent_parser | No intent matched for: 'align down'
+2026-11-19 18:48:22,199 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Align down.')
+2026-11-19 18:48:22,199 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:48:26,175 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:48:26,176 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-11-19 18:48:26,176 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:48:27,697 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:48:32,060 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:48:32,590 | INFO     | audio.speech_to_text | Transcription took 0.53s -> 'volume down'
+2026-11-19 18:48:32,595 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_DOWN', 'entity': None, 'confidence': 0.95, 'raw_text': 'volume down'}
+2026-11-19 18:48:32,607 | INFO     | automation.volume_controller | Volume set to 90%
+2026-11-19 18:48:32,607 | INFO     | voice.text_to_speech | Speaking: 'Volume decreased to 90 percent.'
+2026-11-19 18:48:35,298 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:48:35,307 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:48:35,307 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:48:36,535 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:48:40,640 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:48:41,128 | INFO     | audio.speech_to_text | Transcription took 0.49s -> 'Volume down.'
+2026-11-19 18:48:41,128 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'VOLUME_DOWN', 'entity': None, 'confidence': 0.95, 'raw_text': 'Volume down.'}
+2026-11-19 18:48:41,136 | INFO     | automation.volume_controller | Volume set to 80%
+2026-11-19 18:48:41,136 | INFO     | voice.text_to_speech | Speaking: 'Volume decreased to 80 percent.'
+2026-11-19 18:48:43,703 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:48:43,706 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:48:43,706 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:48:44,943 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:48:49,019 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:48:49,554 | INFO     | audio.speech_to_text | Transcription took 0.54s -> 'It's down'
+2026-11-19 18:48:49,556 | WARNING  | brain.intent_parser | No intent matched for: 'it's down'
+2026-11-19 18:48:49,556 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='It's down')
+2026-11-19 18:48:49,556 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:48:52,505 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:48:52,506 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:48:52,506 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:48:53,732 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:48:57,803 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:48:58,346 | INFO     | audio.speech_to_text | Transcription took 0.54s -> 'Press down'
+2026-11-19 18:48:58,346 | WARNING  | brain.intent_parser | No intent matched for: 'press down'
+2026-11-19 18:48:58,346 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Press down')
+2026-11-19 18:48:58,346 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:49:06,948 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-11-19 18:49:08,799 | INFO     | audio.speech_to_text | Model loaded in 1.85s
+2026-11-19 18:49:09,047 | INFO     | audio.wake_word | Wake word listener initialized (model: hey_jarvis).
+2026-11-19 18:49:09,047 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-11-19 18:49:09,047 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-11-19 18:49:11,209 | INFO     | __main__ | Assistant fully initialized. Entering main loop.
+2026-11-19 18:49:11,210 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:49:13,164 | INFO     | audio.wake_word | Wake word detected! (score: 0.96)
+2026-11-19 18:49:13,164 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:49:14,402 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:49:18,490 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:49:19,186 | INFO     | audio.speech_to_text | Transcription took 0.70s -> 'Brightness down.'
+2026-11-19 18:49:19,190 | WARNING  | brain.intent_parser | No intent matched for: 'brightness down'
+2026-11-19 18:49:19,190 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Brightness down.')
+2026-11-19 18:49:19,190 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:49:22,145 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:49:22,149 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:49:22,149 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:49:23,403 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:49:27,494 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:49:28,152 | INFO     | audio.speech_to_text | Transcription took 0.66s -> 'Goodbye.'
+2026-11-19 18:49:28,154 | WARNING  | brain.intent_parser | No intent matched for: 'goodbye'
+2026-11-19 18:49:28,154 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Goodbye.')
+2026-11-19 18:49:28,154 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:49:31,106 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:49:31,110 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:49:31,110 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:49:32,346 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:49:36,418 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:49:37,119 | INFO     | audio.speech_to_text | Transcription took 0.70s -> 'Bye'
+2026-11-19 18:49:37,119 | WARNING  | brain.intent_parser | No intent matched for: 'bye'
+2026-11-19 18:49:37,119 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Bye')
+2026-11-19 18:49:37,119 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:49:40,171 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:49:40,173 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:49:40,174 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:49:41,432 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:49:45,540 | INFO     | __main__ | Shutdown requested via KeyboardInterrupt.
+2026-11-19 18:49:45,540 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-11-19 18:49:46,867 | INFO     | audio.wake_word | Wake word listener resources released.
+2026-11-19 18:49:46,867 | INFO     | __main__ | All resources released. Assistant stopped cleanly.
+2026-11-19 18:51:10,284 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-11-19 18:51:11,844 | INFO     | audio.speech_to_text | Model loaded in 1.56s
+2026-11-19 18:51:12,030 | INFO     | audio.wake_word | Wake word listener initialized (model: hey_jarvis).
+2026-11-19 18:51:12,030 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-11-19 18:51:12,030 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-11-19 18:51:14,234 | INFO     | __main__ | Assistant fully initialized. Entering main loop.
+2026-11-19 18:51:14,234 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:51:15,880 | INFO     | audio.wake_word | Wake word detected! (score: 0.54)
+2026-11-19 18:51:15,880 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:51:17,103 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:51:21,198 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:51:21,938 | INFO     | audio.speech_to_text | Transcription took 0.74s -> 'Open Chrome.'
+2026-11-19 18:51:21,938 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'chrome', 'confidence': 0.95, 'raw_text': 'Open Chrome.'}
+2026-11-19 18:51:21,950 | INFO     | automation.app_controller | Launched app: chrome
+2026-11-19 18:51:21,952 | INFO     | brain.context_manager | Context: application -> chrome
+2026-11-19 18:51:21,952 | INFO     | voice.text_to_speech | Speaking: 'Opening chrome.'
+2026-11-19 18:51:23,527 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:51:23,530 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-11-19 18:51:23,530 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:51:24,762 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:51:28,838 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:51:29,453 | INFO     | audio.speech_to_text | Transcription took 0.61s -> 'Close Chrome'
+2026-11-19 18:51:29,453 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'CLOSE_APPLICATION', 'entity': 'chrome', 'confidence': 0.95, 'raw_text': 'Close Chrome'}
+2026-11-19 18:51:30,591 | INFO     | automation.app_controller | Closed app: chrome
+2026-11-19 18:51:30,592 | INFO     | brain.context_manager | Context: application -> None
+2026-11-19 18:51:30,592 | INFO     | voice.text_to_speech | Speaking: 'Closing chrome.'
+2026-11-19 18:51:32,277 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:51:32,278 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:51:32,278 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:51:33,558 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:51:37,638 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:51:38,280 | INFO     | audio.speech_to_text | Transcription took 0.64s -> 'Open VS Code'
+2026-11-19 18:51:38,280 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'vscode', 'confidence': 0.95, 'raw_text': 'Open VS Code'}
+2026-11-19 18:51:38,301 | INFO     | automation.app_controller | Launched app: vscode
+2026-11-19 18:51:38,302 | INFO     | brain.context_manager | Context: application -> vscode
+2026-11-19 18:51:38,302 | INFO     | voice.text_to_speech | Speaking: 'Opening vscode.'
+2026-11-19 18:51:40,091 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:51:40,093 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:51:40,093 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:51:41,369 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:51:45,469 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:51:46,424 | INFO     | audio.speech_to_text | Transcription took 0.95s -> 'VS code'
+2026-11-19 18:51:46,429 | WARNING  | brain.intent_parser | No intent matched for: 'vs code'
+2026-11-19 18:51:46,429 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='VS code')
+2026-11-19 18:51:46,431 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:51:49,516 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:51:49,529 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:51:49,529 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:51:50,763 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:51:54,877 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:51:55,463 | INFO     | audio.speech_to_text | Transcription took 0.58s -> 'Close VS Code'
+2026-11-19 18:51:55,463 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'CLOSE_APPLICATION', 'entity': 'vscode', 'confidence': 0.95, 'raw_text': 'Close VS Code'}
+2026-11-19 18:51:55,481 | INFO     | automation.app_controller | Closed app: vscode
+2026-11-19 18:51:55,481 | INFO     | brain.context_manager | Context: application -> None
+2026-11-19 18:51:55,481 | INFO     | voice.text_to_speech | Speaking: 'Closing vscode.'
+2026-11-19 18:51:58,257 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:51:58,269 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:51:58,269 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:52:48,940 | INFO     | audio.speech_to_text | Loading Whisper model 'base.en' (device=cpu, compute_type=int8)...
+2026-11-19 18:52:50,930 | INFO     | audio.speech_to_text | Model loaded in 1.99s
+2026-11-19 18:52:51,147 | INFO     | audio.wake_word | Wake word listener initialized (model: hey_jarvis).
+2026-11-19 18:52:51,147 | INFO     | voice.text_to_speech | Speaking: 'Voice assistant ready.'
+2026-11-19 18:52:51,147 | INFO     | voice.text_to_speech | Initializing TTS engine...
+2026-11-19 18:52:53,518 | INFO     | __main__ | Assistant fully initialized. Entering main loop.
+2026-11-19 18:52:53,518 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:52:54,847 | INFO     | audio.wake_word | Wake word detected! (score: 0.65)
+2026-11-19 18:52:54,847 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:52:56,158 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:53:00,245 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:53:01,017 | INFO     | audio.speech_to_text | Transcription took 0.77s -> 'Open Chrome.'
+2026-11-19 18:53:01,017 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'chrome', 'confidence': 0.95, 'raw_text': 'Open Chrome.'}
+2026-11-19 18:53:01,059 | INFO     | automation.app_controller | Launched app: chrome
+2026-11-19 18:53:01,062 | INFO     | brain.context_manager | Context: application -> chrome
+2026-11-19 18:53:01,062 | INFO     | voice.text_to_speech | Speaking: 'Opening chrome.'
+2026-11-19 18:53:02,745 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:53:02,749 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:53:02,750 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:53:03,993 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:53:08,071 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:53:08,859 | INFO     | audio.speech_to_text | Transcription took 0.79s -> 'Close Chrome.'
+2026-11-19 18:53:08,859 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'CLOSE_APPLICATION', 'entity': 'chrome', 'confidence': 0.95, 'raw_text': 'Close Chrome.'}
+2026-11-19 18:53:09,759 | INFO     | automation.app_controller | Closed app: chrome
+2026-11-19 18:53:09,759 | INFO     | brain.context_manager | Context: application -> None
+2026-11-19 18:53:09,761 | INFO     | voice.text_to_speech | Speaking: 'Closing chrome.'
+2026-11-19 18:53:11,402 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:53:11,404 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:53:11,404 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:53:12,636 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:53:16,972 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:53:17,605 | INFO     | audio.speech_to_text | Transcription took 0.63s -> 'Open File Explorer.'
+2026-11-19 18:53:17,605 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_APPLICATION', 'entity': 'explorer', 'confidence': 0.95, 'raw_text': 'Open File Explorer.'}
+2026-11-19 18:53:17,633 | INFO     | automation.app_controller | Launched app: explorer
+2026-11-19 18:53:17,633 | INFO     | brain.context_manager | Context: application -> explorer
+2026-11-19 18:53:17,633 | INFO     | voice.text_to_speech | Speaking: 'Opening explorer.'
+2026-11-19 18:53:19,376 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:53:19,378 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:53:19,380 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:53:20,615 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:53:24,690 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:53:25,294 | INFO     | audio.speech_to_text | Transcription took 0.60s -> 'I'll explore that.'
+2026-11-19 18:53:25,294 | WARNING  | brain.intent_parser | No intent matched for: 'i'll explore that'
+2026-11-19 18:53:25,294 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='I'll explore that.')
+2026-11-19 18:53:25,294 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:53:28,281 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:53:28,283 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:53:28,283 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:53:29,514 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:53:33,578 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:53:34,177 | INFO     | audio.speech_to_text | Transcription took 0.60s -> 'Close file explorer.'
+2026-11-19 18:53:34,178 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'CLOSE_APPLICATION', 'entity': 'explorer', 'confidence': 0.95, 'raw_text': 'Close file explorer.'}
+2026-11-19 18:53:34,178 | WARNING  | automation.app_controller | Attempted to close unsupported app: 'explorer'
+2026-11-19 18:53:34,178 | INFO     | voice.text_to_speech | Speaking: 'explorer doesn't seem to be running.'
+2026-11-19 18:53:36,703 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:53:36,703 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:53:36,703 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:53:37,933 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:53:42,012 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:53:42,065 | INFO     | audio.speech_to_text | Transcription took 0.05s -> ''
+2026-11-19 18:53:42,065 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-11-19 18:53:42,065 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:53:45,016 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:53:45,018 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:53:45,018 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:53:46,244 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:53:50,316 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:53:51,041 | INFO     | audio.speech_to_text | Transcription took 0.73s -> 'What time is it?'
+2026-11-19 18:53:51,041 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'GET_TIME', 'entity': None, 'confidence': 0.95, 'raw_text': 'What time is it?'}
+2026-11-19 18:53:51,041 | INFO     | automation.system_controller | Current time requested: 6:53 PM
+2026-11-19 18:53:51,041 | INFO     | voice.text_to_speech | Speaking: 'It is currently 6:53 PM'
+2026-11-19 18:53:54,007 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:53:54,009 | INFO     | audio.wake_word | Wake word detected! (score: 0.96)
+2026-11-19 18:53:54,009 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:53:55,334 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:53:59,432 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:54:00,132 | INFO     | audio.speech_to_text | Transcription took 0.70s -> 'Take a screenshot'
+2026-11-19 18:54:00,132 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SCREENSHOT', 'entity': None, 'confidence': 0.95, 'raw_text': 'Take a screenshot'}
+2026-11-19 18:54:00,444 | INFO     | automation.screenshot_controller | Screenshot saved: D:\college\capstone\windows_voice_assistant\screenshots\screenshot_20261119_185400.png
+2026-11-19 18:54:00,447 | INFO     | voice.text_to_speech | Speaking: 'Screenshot taken.'
+2026-11-19 18:54:02,801 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:54:09,295 | INFO     | audio.wake_word | Wake word detected! (score: 0.63)
+2026-11-19 18:54:09,295 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:54:10,500 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:54:14,551 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:54:15,267 | INFO     | audio.speech_to_text | Transcription took 0.71s -> 'Good.'
+2026-11-19 18:54:15,267 | WARNING  | brain.intent_parser | No intent matched for: 'good'
+2026-11-19 18:54:15,268 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Good.')
+2026-11-19 18:54:15,268 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:54:18,227 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:54:18,227 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-11-19 18:54:18,227 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:54:19,458 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:54:23,534 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:54:24,237 | INFO     | audio.speech_to_text | Transcription took 0.70s -> 'Mute.'
+2026-11-19 18:54:24,237 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'MUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'Mute.'}
+2026-11-19 18:54:24,244 | INFO     | automation.volume_controller | Muted
+2026-11-19 18:54:24,245 | INFO     | voice.text_to_speech | Speaking: 'Muted.'
+2026-11-19 18:54:25,478 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:54:25,478 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-11-19 18:54:25,478 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:54:26,708 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:54:30,957 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:54:31,744 | INFO     | audio.speech_to_text | Transcription took 0.79s -> 'Unmute.'
+2026-11-19 18:54:31,744 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'UNMUTE', 'entity': None, 'confidence': 0.95, 'raw_text': 'Unmute.'}
+2026-11-19 18:54:31,744 | INFO     | automation.volume_controller | Unmuted
+2026-11-19 18:54:31,744 | INFO     | voice.text_to_speech | Speaking: 'Unmuted.'
+2026-11-19 18:54:33,103 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:54:33,111 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:54:33,111 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:54:34,873 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:54:39,173 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:54:39,806 | INFO     | audio.speech_to_text | Transcription took 0.63s -> 'Open Settings.'
+2026-11-19 18:54:39,806 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_SETTINGS', 'entity': None, 'confidence': 0.95, 'raw_text': 'Open Settings.'}
+2026-11-19 18:54:39,806 | INFO     | automation.system_controller | Opening Windows Settings
+2026-11-19 18:54:39,822 | INFO     | voice.text_to_speech | Speaking: 'Opening Settings.'
+2026-11-19 18:54:41,550 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:54:41,555 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:54:41,555 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:54:42,821 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:54:46,906 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:54:47,462 | INFO     | audio.speech_to_text | Transcription took 0.55s -> 'for settings.'
+2026-11-19 18:54:47,462 | WARNING  | brain.intent_parser | No intent matched for: 'for settings'
+2026-11-19 18:54:47,464 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='for settings.')
+2026-11-19 18:54:47,464 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:54:50,410 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:54:50,414 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:54:50,414 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:54:51,639 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:54:55,725 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:54:56,334 | INFO     | audio.speech_to_text | Transcription took 0.61s -> 'and youtube.com'
+2026-11-19 18:54:56,334 | WARNING  | brain.intent_parser | No intent matched for: 'and youtube.com'
+2026-11-19 18:54:56,334 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='and youtube.com')
+2026-11-19 18:54:56,334 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:55:01,073 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:55:01,079 | INFO     | audio.wake_word | Wake word detected! (score: 0.95)
+2026-11-19 18:55:01,079 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:55:02,321 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:55:06,413 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:55:07,067 | INFO     | audio.speech_to_text | Transcription took 0.65s -> 'When you do'
+2026-11-19 18:55:07,067 | WARNING  | brain.intent_parser | No intent matched for: 'when you do'
+2026-11-19 18:55:07,067 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='When you do')
+2026-11-19 18:55:07,067 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:55:10,010 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:55:10,015 | INFO     | audio.wake_word | Wake word detected! (score: 0.72)
+2026-11-19 18:55:10,015 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:55:11,240 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:55:15,318 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:55:15,965 | INFO     | audio.speech_to_text | Transcription took 0.65s -> 'Open YouTube.'
+2026-11-19 18:55:15,965 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'OPEN_WEBSITE', 'entity': 'youtube', 'confidence': 0.95, 'raw_text': 'Open YouTube.'}
+2026-11-19 18:55:22,777 | INFO     | automation.browser.browser_controller | Launching Chrome (debug port 9222)...
+2026-11-19 18:55:25,491 | INFO     | automation.browser.browser_controller | Launched and attached to new Chrome instance.
+2026-11-19 18:55:30,633 | INFO     | automation.browser.browser_controller | Navigated to youtube (https://www.youtube.com)
+2026-11-19 18:55:30,635 | INFO     | brain.context_manager | Context: website -> youtube
+2026-11-19 18:55:30,635 | INFO     | voice.text_to_speech | Speaking: 'Opening youtube.'
+2026-11-19 18:55:32,337 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:55:45,873 | INFO     | audio.wake_word | Wake word detected! (score: 0.59)
+2026-11-19 18:55:45,873 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:55:47,085 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:55:51,136 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:55:51,871 | INFO     | audio.speech_to_text | Transcription took 0.74s -> 'Take a first video.'
+2026-11-19 18:55:51,871 | WARNING  | brain.intent_parser | No intent matched for: 'take a first video'
+2026-11-19 18:55:51,871 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Take a first video.')
+2026-11-19 18:55:51,871 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:55:54,834 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:55:54,851 | INFO     | audio.wake_word | Wake word detected! (score: 0.85)
+2026-11-19 18:55:54,851 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:55:56,131 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:56:00,231 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:56:00,911 | INFO     | audio.speech_to_text | Transcription took 0.68s -> 'Play the first video.'
+2026-11-19 18:56:00,912 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'PLAY_FIRST_RESULT', 'entity': None, 'confidence': 0.95, 'raw_text': 'Play the first video.'}
+2026-11-19 18:56:08,922 | ERROR    | automation.browser.youtube_controller | Failed to play first result: Page.wait_for_selector: Timeout 8000ms exceeded.
+Call log:
+waiting for locator("ytd-video-renderer a#video-title") to be visible
+
+2026-11-19 18:56:08,922 | INFO     | voice.text_to_speech | Speaking: 'I couldn't play that video.'
+2026-11-19 18:56:10,958 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:56:10,963 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:56:10,963 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:56:12,220 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:56:16,332 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:56:16,409 | INFO     | audio.speech_to_text | Transcription took 0.08s -> ''
+2026-11-19 18:56:16,409 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-11-19 18:56:16,409 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:56:19,415 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:56:19,418 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:56:19,418 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:56:20,695 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:56:24,788 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:56:24,847 | INFO     | audio.speech_to_text | Transcription took 0.06s -> ''
+2026-11-19 18:56:24,849 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-11-19 18:56:24,849 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:56:27,812 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:56:27,817 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:56:27,817 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:56:29,053 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:56:33,135 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:56:33,194 | INFO     | audio.speech_to_text | Transcription took 0.06s -> ''
+2026-11-19 18:56:33,194 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-11-19 18:56:33,194 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:56:36,140 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:56:36,144 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:56:36,144 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:56:37,380 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:56:41,451 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:56:42,062 | INFO     | audio.speech_to_text | Transcription took 0.61s -> 'BOSS!'
+2026-11-19 18:56:42,063 | WARNING  | brain.intent_parser | No intent matched for: 'boss!'
+2026-11-19 18:56:42,063 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='BOSS!')
+2026-11-19 18:56:42,063 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:56:45,011 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:56:45,014 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-11-19 18:56:45,015 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:56:46,242 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:56:50,320 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:56:50,954 | INFO     | audio.speech_to_text | Transcription took 0.63s -> 'Buzz'
+2026-11-19 18:56:50,955 | WARNING  | brain.intent_parser | No intent matched for: 'buzz'
+2026-11-19 18:56:50,955 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Buzz')
+2026-11-19 18:56:50,955 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:56:53,912 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:56:56,012 | INFO     | audio.wake_word | Wake word detected! (score: 0.90)
+2026-11-19 18:56:56,012 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:56:57,213 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:57:01,267 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:57:01,314 | INFO     | audio.speech_to_text | Transcription took 0.05s -> ''
+2026-11-19 18:57:01,314 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-11-19 18:57:01,314 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:57:04,264 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:57:04,270 | INFO     | audio.wake_word | Wake word detected! (score: 0.93)
+2026-11-19 18:57:04,270 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:57:05,501 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:57:09,590 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:57:10,178 | INFO     | audio.speech_to_text | Transcription took 0.59s -> 'play'
+2026-11-19 18:57:10,179 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'PLAY', 'entity': None, 'confidence': 0.95, 'raw_text': 'play'}
+2026-11-19 18:57:10,232 | INFO     | brain.context_manager | Context: media state -> playing
+2026-11-19 18:57:10,232 | INFO     | voice.text_to_speech | Speaking: 'Playing.'
+2026-11-19 18:57:11,540 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:57:19,157 | INFO     | audio.wake_word | Wake word detected! (score: 0.85)
+2026-11-19 18:57:19,157 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:57:20,364 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:57:24,418 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:57:25,294 | INFO     | audio.speech_to_text | Transcription took 0.88s -> 'Video'
+2026-11-19 18:57:25,298 | WARNING  | brain.intent_parser | No intent matched for: 'video'
+2026-11-19 18:57:25,298 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Video')
+2026-11-19 18:57:25,298 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:57:28,302 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:57:28,308 | INFO     | audio.wake_word | Wake word detected! (score: 0.99)
+2026-11-19 18:57:28,309 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:57:29,557 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:57:33,739 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:57:34,445 | INFO     | audio.speech_to_text | Transcription took 0.71s -> 'Next video'
+2026-11-19 18:57:34,446 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'NEXT', 'entity': None, 'confidence': 0.95, 'raw_text': 'Next video'}
+2026-11-19 18:57:34,538 | INFO     | voice.text_to_speech | Speaking: 'Playing next video.'
+2026-11-19 18:57:36,384 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:57:36,392 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:57:36,392 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:57:37,745 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:57:41,828 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:57:42,922 | INFO     | audio.speech_to_text | Transcription took 1.09s -> 'previous video'
+2026-11-19 18:57:42,923 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'PREVIOUS', 'entity': None, 'confidence': 0.95, 'raw_text': 'previous video'}
+2026-11-19 18:57:42,970 | INFO     | voice.text_to_speech | Speaking: 'Playing previous video.'
+2026-11-19 18:57:45,005 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:57:45,011 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:57:45,011 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:57:46,278 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:57:50,506 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:57:51,324 | INFO     | audio.speech_to_text | Transcription took 0.82s -> 'Seek forward.'
+2026-11-19 18:57:51,325 | WARNING  | brain.intent_parser | No intent matched for: 'seek forward'
+2026-11-19 18:57:51,325 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Seek forward.')
+2026-11-19 18:57:51,325 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:57:54,273 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:57:54,276 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:57:54,277 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:57:55,517 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:57:59,599 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:58:00,263 | INFO     | audio.speech_to_text | Transcription took 0.66s -> 'Lord'
+2026-11-19 18:58:00,263 | WARNING  | brain.intent_parser | No intent matched for: 'lord'
+2026-11-19 18:58:00,264 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Lord')
+2026-11-19 18:58:00,264 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:58:03,213 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:58:03,217 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-11-19 18:58:03,217 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:58:04,454 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:58:08,532 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:58:09,632 | INFO     | audio.speech_to_text | Transcription took 1.10s -> 'Go back'
+2026-11-19 18:58:09,632 | WARNING  | brain.intent_parser | No intent matched for: 'go back'
+2026-11-19 18:58:09,632 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Go back')
+2026-11-19 18:58:09,632 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:58:12,630 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:58:16,650 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-11-19 18:58:16,652 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:58:17,894 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:58:21,946 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:58:22,008 | INFO     | audio.speech_to_text | Transcription took 0.06s -> ''
+2026-11-19 18:58:22,009 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='')
+2026-11-19 18:58:22,010 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:58:24,966 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:58:27,149 | INFO     | audio.wake_word | Wake word detected! (score: 0.94)
+2026-11-19 18:58:27,149 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:58:28,355 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:58:32,406 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:58:33,018 | INFO     | audio.speech_to_text | Transcription took 0.61s -> 'Go back'
+2026-11-19 18:58:33,020 | WARNING  | brain.intent_parser | No intent matched for: 'go back'
+2026-11-19 18:58:33,020 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Go back')
+2026-11-19 18:58:33,020 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:58:35,966 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:58:35,970 | INFO     | audio.wake_word | Wake word detected! (score: 0.97)
+2026-11-19 18:58:35,970 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:58:37,194 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:58:41,271 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:58:42,002 | INFO     | audio.speech_to_text | Transcription took 0.73s -> 'Go back 20 seconds'
+2026-11-19 18:58:42,002 | WARNING  | brain.intent_parser | No intent matched for: 'go back 20 seconds'
+2026-11-19 18:58:42,002 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='Go back 20 seconds')
+2026-11-19 18:58:42,002 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:58:46,233 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:58:46,242 | INFO     | audio.wake_word | Wake word detected! (score: 0.98)
+2026-11-19 18:58:46,242 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:58:47,497 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:58:51,620 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:58:52,350 | INFO     | audio.speech_to_text | Transcription took 0.73s -> 'Go back 10 seconds'
+2026-11-19 18:58:52,351 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEEK_BACKWARD', 'entity': None, 'confidence': 0.95, 'raw_text': 'Go back 10 seconds'}
+2026-11-19 18:58:52,392 | INFO     | voice.text_to_speech | Speaking: 'Going back.'
+2026-11-19 18:58:53,878 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:58:53,884 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:58:53,887 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:58:55,113 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:58:59,189 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:59:00,256 | INFO     | audio.speech_to_text | Transcription took 1.07s -> 'Forward 10 seconds.'
+2026-11-19 18:59:00,256 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'SEEK_FORWARD', 'entity': None, 'confidence': 0.95, 'raw_text': 'Forward 10 seconds.'}
+2026-11-19 18:59:00,292 | INFO     | voice.text_to_speech | Speaking: 'Skipping forward.'
+2026-11-19 18:59:02,007 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:59:02,012 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:59:02,013 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:59:03,234 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:59:07,319 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:59:14,908 | INFO     | audio.speech_to_text | Transcription took 7.59s -> 'In.'
+2026-11-19 18:59:14,908 | WARNING  | brain.intent_parser | No intent matched for: 'in'
+2026-11-19 18:59:14,908 | WARNING  | brain.command_router | Unhandled intent: 'UNKNOWN' (raw_text='In.')
+2026-11-19 18:59:14,908 | INFO     | voice.text_to_speech | Speaking: 'Sorry, I don't know that command yet.'
+2026-11-19 18:59:17,873 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:59:17,873 | INFO     | audio.wake_word | Wake word detected! (score: 1.00)
+2026-11-19 18:59:17,873 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:59:19,118 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:59:23,200 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:59:23,785 | INFO     | audio.speech_to_text | Transcription took 0.58s -> 'Full screen.'
+2026-11-19 18:59:23,786 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'FULLSCREEN', 'entity': None, 'confidence': 0.95, 'raw_text': 'Full screen.'}
+2026-11-19 18:59:23,811 | INFO     | voice.text_to_speech | Speaking: 'Entering fullscreen.'
+2026-11-19 18:59:25,677 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:59:25,681 | INFO     | audio.wake_word | Wake word detected! (score: 0.94)
+2026-11-19 18:59:25,682 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:59:26,903 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:59:30,983 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:59:31,609 | INFO     | audio.speech_to_text | Transcription took 0.62s -> 'exit full screen'
+2026-11-19 18:59:31,609 | INFO     | brain.intent_parser | Parsed intent: {'intent': 'EXIT_FULLSCREEN', 'entity': None, 'confidence': 0.95, 'raw_text': 'exit full screen'}
+2026-11-19 18:59:31,629 | INFO     | voice.text_to_speech | Speaking: 'Exiting fullscreen.'
+2026-11-19 18:59:33,507 | INFO     | audio.wake_word | Listening for wake word...
+2026-11-19 18:59:33,514 | INFO     | audio.wake_word | Wake word detected! (score: 0.87)
+2026-11-19 18:59:33,514 | INFO     | voice.text_to_speech | Speaking: 'Yes?'
+2026-11-19 18:59:34,793 | INFO     | audio.microphone | Recording for 4 seconds...
+2026-11-19 18:59:38,878 | INFO     | audio.microphone | Recording finished.
+2026-11-19 18:59:39,454 | INFO     | __main__ | Shutdown requested via KeyboardInterrupt.
+2026-11-19 18:59:39,454 | INFO     | voice.text_to_speech | Speaking: 'Goodbye.'
+2026-11-19 18:59:40,803 | INFO     | audio.wake_word | Wake word listener resources released.
+2026-11-19 18:59:40,841 | INFO     | automation.browser.browser_controller | Playwright connection closed.
+2026-11-19 18:59:40,841 | INFO     | __main__ | All resources released. Assistant stopped cleanly.

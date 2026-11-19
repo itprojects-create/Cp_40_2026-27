@@ -1,0 +1,14 @@
+sounddevice==0.4.7
+numpy==1.26.4
+soundfile==0.12.1
+faster-whisper==1.0.3
+requests==2.32.3
+pyttsx3==2.90
+psutil==6.0.0
+mss==9.0.1
+pycaw==20240210
+comtypes==1.4.5
+playwright==1.45.0
+openwakeword==0.6.0
+onnxruntime==1.18.0
+scikit-learn==1.5.1
